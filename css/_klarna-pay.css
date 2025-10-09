@@ -1,0 +1,153 @@
+.klarna-faq-sec {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+.klarna-faq-sec .heading h2 {
+  font-size: 30px;
+  color: var(--black);
+  font-weight: 400;
+  font-family: var(--font-cormorant);
+  line-height: 150%;
+}
+
+.shop_now_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.shop_now_grid .content h4 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: var(--font-inter);
+  line-height: 120%;
+  color: var(--black);
+}
+
+.shop_now_grid .content p {
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;
+  font-family: var(--font-inter);
+  color: var(--black);
+}
+
+.klarna_features_row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.klarna_features_row .heading p {
+  min-height: 78px;
+}
+
+.klarna_features_row .image_sec img {
+  height: 400px;
+}
+
+.installment_sec h3 {
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 400;
+  font-family: var(--font-inter);
+}
+
+.installment_sec p {
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 400;
+  color: var(--black);
+}
+
+@media (max-width: 1532px) {
+  .klarna_features_row .heading p {
+    min-height: 95px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .klarna_features_row .heading p {
+    min-height: 120px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .klarna_features_row .image_sec img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 991px) {
+  .klarna_features_row .heading p {
+    min-height: 110px;
+  }
+
+  .installment_sec h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .klarna-faq-sec .heading h2 {
+    font-size: 24px;
+  }
+  .klarna_features_row .heading p {
+    min-height: auto;
+  }
+
+  .shop_now_grid .content h4 {
+    font-size: 16px;
+  }
+
+  .klarna-faq-sec .heading p {
+    font-size: 14px;
+  }
+
+  .klarna_features_row .image_sec img {
+    height: 350px;
+  }
+
+  .klarna_features_row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .shop_now_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .installment_sec h3 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .klarna-faq-sec .heading h2 {
+    font-size: 18px;
+  }
+
+  .klarna-faq-sec .heading p {
+    font-size: 12px;
+  }
+
+  .installment_sec h3 {
+    font-size: 12px;
+  }
+
+  .installment_sec p {
+    font-size: 10px;
+  }
+
+  .shop_now_grid .content h4 {
+    font-size: 12px;
+  }
+
+  .shop_now_grid .content p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .klarna_features_row .image_sec img {
+    height: 230px;
+  }
+}

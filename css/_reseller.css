@@ -1,0 +1,137 @@
+/* ============================================
+   reseller css
+   ============================================ */
+.color_2E2E2E{
+  color: #2E2E2E;
+}
+.color_333333{
+  color: #333333;
+}
+.color_525252{
+  color: #525252;
+}
+.fs_16{
+  font-size: 16px;
+  line-height: 150%;
+}
+.fs_20{
+  font-size: 20px;
+  line-height: 150%;
+}
+.fs_30{
+  font-size: 30px;
+  line-height: 150%;
+}
+.fs_40{
+  font-size: 40px;
+  line-height: 150%;
+}
+.fw_300{
+  font-weight: 300;
+}
+.fw_400{
+  font-weight: 400;
+}
+.fw_500{
+  font-weight: 500;
+}
+.fw_600{
+  font-weight: 600;
+}
+.fw_700{
+  font-weight: 700;
+}
+
+.howItWorks{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.howItWorks img {
+  height: 420px;
+}
+.howItWorks_list li{
+  font-family: var(--font-inter);
+  font-weight: 400;
+  color: var(--black);
+  text-align: justify;
+  font-size: 20px;
+  line-height: 150%;
+  text-justify: inter-word;
+}
+
+.becomePartner{
+  background-color: #F8F0F5;
+  padding: 3rem;
+}
+.resellerAccordian_sec{
+  padding: 40px 8rem;
+}
+.resellerAccordian_sec .accordian_hdn{
+  font-size: 23px;
+  line-height: 150%;
+}
+
+.text_pink{
+  color: #B56899
+}
+.text_underline{
+  text-decoration: underline;
+}
+
+
+/* Responsive */
+@media (max-width: 1100px) {
+  .howItWorks{
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .padding_Tab_none{
+    padding: 0 !important;
+  }
+  .fs_40{
+    font-size: 30px;
+    line-height: 100%;
+  }
+  /* .howItImage{
+    margin-left: -20px;
+    margin-right: -20px;
+  } */
+   .howItWorks h2, .howItWorks_list  {
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+   .howItWorks_list  {
+    padding-left: 35px;
+   }
+   .becomePartner{
+      padding: 2rem 0;
+   }
+   .resellerAccordian_sec {
+      padding: 40px 4rem;
+   }
+}
+
+
+@media (max-width: 575px) {
+  .howItWorks h2{
+    font-size: 20px;
+  }
+
+  .howItWorks img {
+    height: 265px;
+  }
+  .howItWorks_list li{
+    font-size: 12px;
+    line-height: 150%;
+  }
+  .becomePartner h2{
+    margin-bottom: 12px;
+  }
+  .resellerAccordian_sec {
+      padding: 40px 0rem;
+   }
+}
+

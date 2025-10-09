@@ -1,0 +1,464 @@
+/* ============================================
+   RESPONSIVE STYLES - MAX-WIDTH: 1440px
+   ============================================ */
+@media (max-width: 1440px) {
+  .trending_sec .related-products .products_tag .tag {
+    padding: 5px 10px;
+  }
+}
+
+/* ============================================
+   RESPONSIVE STYLES - MAX-WIDTH: 1199px
+   ============================================ */
+@media (max-width: 1199px) {
+  br {
+    display: none;
+  }
+
+  .offers_sec h1 {
+    font-size: 1rem;
+  }
+
+  .trending_sec .heading h2 {
+    font-size: 32px;
+  }
+
+  .trending_sec .trending_row {
+    overflow-x: auto;
+  }
+
+  .trending_sec .expolore_sec {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .materials_sec .materials_sec_box .image_box {
+    height: 280px;
+  }
+
+  .materials_sec .materials_sec_box .image_box img {
+    height: 280px;
+  }
+
+  .materials_sec .materials_sec_box_image .image_box {
+    height: 280px;
+  }
+
+  .materials_sec .materials_sec_box_image .image_box img {
+    height: 280px;
+  }
+
+  .trending_sec .trending_row {
+    padding: 0;
+    overflow: visible;
+  }
+
+  .trending_sec .trending_grid_row {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    white-space: nowrap;
+    gap: 15px;
+  }
+
+  .trending_sec .trending_grid_row::-webkit-scrollbar {
+    display: none;
+  }
+
+  .trending_sec .trending_grid_column {
+    flex: 0 0 200px;
+    width: 200px;
+    display: inline-block;
+    white-space: normal;
+  }
+
+  .trending_sec .trending_grid_column .image_content {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slide-btn {
+    display: block;
+  }
+
+  .trending_sec .related-products .products_row {
+    overflow-x: auto;
+  }
+
+  .trending_sec .related-products .products_row::-webkit-scrollbar {
+    display: none;
+  }
+
+  .trending_sec .related-products .products_tag {
+    white-space: nowrap;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+
+  .footer-links a {
+    padding: 6px 15px;
+  }
+
+  .newsletter-column {
+    grid-column: span 3;
+  }
+}
+
+/* ============================================
+   RESPONSIVE STYLES - MAX-WIDTH: 991px
+   ============================================ */
+@media (max-width: 991px) {
+  .albarose_container {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+  }
+
+  .filter-header {
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .craft_sec .image_item_row {
+    display: grid;
+    grid-template-columns: 175px 1fr 175px;
+    gap: 20px;
+  }
+
+  .craft_sec .image_item_row img {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .offers_sec h1 {
+    font-size: 14px;
+  }
+
+  .trending_sec .heading h2,
+  .primaryHeading {
+    font-size: 24px;
+  }
+
+  .materials_sec .materials_sec_row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 15px;
+  }
+
+  .slide-btn.prev-btn,
+  .slide-btn.next-btn {
+    top: -33px;
+  }
+
+  .faq_sec .accordion-button.collapsed::before {
+    right: 27px;
+  }
+
+  .footer-grid {
+    margin-bottom: 20px;
+  }
+
+  .footer-links a {
+    border-right: none;
+    padding: 5px 0;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    gap: 0px 10px;
+  }
+
+  .footer-bottom {
+    padding-top: 5px;
+  }
+  .text_section_16 {
+    font-size: 14px !important;
+    line-height: 150%;
+  }
+}
+
+/* ============================================
+   RESPONSIVE STYLES - MAX-WIDTH: 768px
+   ============================================ */
+@media (max-width: 768px) {
+  .fs_26 {
+    font-size: 20px !important;
+  }
+
+  .fs_30_heading {
+    font-size: 26px !important;
+    line-height: 150%;
+  }
+
+  .craft_sec .image_item_row {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    gap: 10px;
+  }
+
+  .craft_sec .image_item_row img {
+    height: 230px;
+  }
+
+  .fs_34_heading {
+    font-size: 20px !important;
+    line-height: 150%;
+  }
+
+  header {
+    height: 65px;
+  }
+
+  .buyers-canvas-body .info-list li a {
+    font-size: 20px;
+  }
+
+  header .logo img {
+    width: 130px;
+  }
+
+  .explore_sec .explore h3 {
+    font-size: 22px;
+    color: var(--black);
+  }
+
+  .sticky_section {
+    position: relative;
+    top: 0;
+  }
+
+  .sub-header .contacts_link a {
+    font-size: 0.75rem;
+  }
+
+  .banner_sec h3 {
+    font-size: 0.875rem;
+  }
+
+  .filter-header {
+    flex-wrap: wrap;
+  }
+
+  .customise-section {
+    margin-left: 0;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .customise-label {
+    display: none;
+  }
+
+  .custom-select button.main-button {
+    min-width: 165px;
+    padding: 12px 25px 12px 12px;
+    font-size: 12px;
+  }
+
+  .custom-select button.main-button .arrow-icon {
+    right: 15px;
+  }
+
+  .trending_sec {
+    padding: 30px 0;
+  }
+
+  .expolore_sec .explore p {
+    font-size: 14px;
+  }
+
+  .owl-dots {
+    display: block;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .footer-section {
+    padding: 40px 0 20px;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .newsletter-column {
+    grid-column: span 2;
+  }
+
+  .social-icons {
+    grid-template-columns: repeat(6, 32px);
+  }
+
+  .faq_sec .accordion-button {
+    font-size: 1.15rem;
+  }
+
+  .explore_sec .explore p {
+    font-size: 14px;
+  }
+
+  .value_sec .image_item_row img {
+    height: 300px;
+  }
+}
+
+/* ============================================
+   RESPONSIVE STYLES - MAX-WIDTH: 575px
+   ============================================ */
+@media (max-width: 575px) {
+  .craft_sec .image_item_row img {
+    height: 152px;
+  }
+  .fs_30_heading {
+    font-size: 22px !important;
+    line-height: 150%;
+  }
+
+  .fluid-row {
+    margin-right: -20px !important;
+    margin-left: -20px !important;
+  }
+  .text_section_16 {
+    font-size: 12px !important;
+    line-height: 150%;
+  }
+  .buyers-canvas-body .description p,
+  .christmas_list p {
+    font-size: 12px;
+  }
+
+  .note {
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .engraving-canvas-body .engraving_list .grid_list .grid p {
+    font-size: 12px;
+  }
+
+  .trending_sec .heading h2,
+  .primaryHeading {
+    font-size: 20px;
+  }
+
+  .newsletter-box h4 {
+    font-size: 20px;
+  }
+
+  .banner_sec h3 {
+    font-size: 0.75rem;
+  }
+
+  .materials_sec .materials_sec_box .image_content {
+    padding-left: 0.525rem;
+  }
+
+  .materials_sec .materials_sec_box .image_content .product_name {
+    font-size: 14px;
+  }
+
+  .materials_sec .materials_sec_box_image .image_content {
+    padding-left: 0.525rem;
+  }
+
+  .materials_sec .materials_sec_box_image .image_content p {
+    font-size: 12px;
+  }
+
+  .materials_sec .materials_sec_box_image .image_content h2 {
+    font-size: 18px;
+  }
+
+  .materials_sec .full_image_model .image_content {
+    padding-left: 5%;
+    padding-right: 1.25rem;
+  }
+
+  .materials_sec .full_image_model .image_content a {
+    margin: 0 auto;
+  }
+
+  .materials_sec .full_image_model.materials_sec_box .image_box {
+    height: 280px;
+  }
+
+  .materials_sec .full_image_model.materials_sec_box .image_box img {
+    height: 280px;
+  }
+
+  .newsletter-box .sign-up-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-links {
+    padding: 0 35px;
+  }
+
+  .value_sec .image_item_row img {
+    height: 260px;
+  }
+}
+
+/* ============================================
+   RESPONSIVE STYLES - MAX-WIDTH: 480px
+   ============================================ */
+@media (max-width: 480px) {
+  .materials_sec .materials_sec_row {
+    gap: 30px 10px;
+  }
+
+  .materials_sec .materials_sec_box .image_box {
+    height: 170px;
+  }
+
+  .materials_sec .materials_sec_box .image_box img {
+    height: 170px;
+  }
+
+  .materials_sec .materials_sec_box_image .image_box {
+    height: 170px;
+  }
+
+  .materials_sec .materials_sec_box_image .image_box img {
+    height: 170px;
+  }
+
+  .materials_sec .materials_sec_box .image_content .product_name {
+    font-size: 14px;
+  }
+
+  .custom-select {
+    flex: 1;
+  }
+
+  .custom-select button.main-button {
+    min-width: inherit;
+    padding: 10px 20px 10px 10px;
+    font-size: 11px;
+    width: 100%;
+  }
+
+  .custom-select button.main-button .arrow-icon {
+    right: 10px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .newsletter-column {
+    grid-column: span 1;
+  }
+
+  .social-icons {
+    grid-template-columns: repeat(3, 32px);
+  }
+}

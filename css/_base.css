@@ -1,0 +1,404 @@
+/* ============================================
+   CSS VARIABLES
+   ============================================ */
+:root {
+  /* Colors */
+  --light-pink: #e8d0df;
+  --black-300: #333333;
+  --black: #2e2e2e;
+  --gray-200: #f9f8f7;
+  --gray-300: #f8f8f8;
+  --gray-400: #f9f8f7;
+  --gray-600: #757575;
+  --footer-link-color: #4b4b4b;
+  --white: #fff;
+  --dark-pink: #b56899;
+  /* Spacing */
+  --space-1: 0.25rem;
+
+  /* Fonts */
+  --font-inter: "Inter", sans-serif;
+  --font-cormorant: "Cormorant", serif;
+}
+
+/* ============================================
+   BASE STYLES
+   ============================================ */
+html,
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  font-style: regular;
+  color: var(--black);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+.font-inter {
+  font-family: var(--font-inter) !important;
+}
+
+.font-cormorant {
+  font-family: var(--font-cormorant) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 150%;
+}
+
+/* ============================================
+   LISTS
+   ============================================ */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.w-fit {
+  width: fit-content !important;
+}
+
+/* ============================================
+   LINKS
+   ============================================ */
+a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.underline-offset {
+  text-underline-offset: 4px;
+}
+
+a:hover {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.gap-6 {
+  gap: 4rem !important;
+}
+
+.gap-7 {
+  gap: 5rem !important;
+}
+
+.fs_default {
+  font-size: 14px;
+  line-height: 150%;
+}
+.fs_12 {
+  font-size: 12px;
+  line-height: 150%;
+}
+.fs_13 {
+  font-size: 13px;
+  line-height: 150%;
+}
+.fs_26 {
+  font-size: 26px !important;
+  line-height: 150%;
+}
+.fs_34_heading {
+  font-size: 34px !important;
+  line-height: 150%;
+  font-weight: 400;
+  font-style: regular;
+  color: var(--black);
+}
+
+.fs_30_heading {
+  font-size: 30px !important;
+  line-height: 150%;
+  font-weight: 400;
+  font-style: regular;
+  color: var(--black);
+}
+
+.text_section_16 {
+  font-size: 16px !important;
+  line-height: 150%;
+  font-weight: 400;
+  font-style: regular;
+  color: var(--black-300);
+}
+
+.text-primary {
+  color: var(--dark-pink) !important;
+}
+
+.offcanvas {
+  color: var(--black);
+}
+
+.disc-type {
+  list-style-type: disc;
+}
+
+button {
+  cursor: pointer;
+}
+
+.btn:disabled,
+.btn.disabled {
+  color: inherit !important;
+  background-color: inherit !important;
+  border-color: inherit !important;
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+  pointer-events: none;
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+.primary_button {
+  padding: 10px 30px;
+  min-width: 200px;
+  height: 42px;
+  background-color: var(--dark-pink);
+  color: var(--white);
+  border-radius: 4px;
+  border: 1px solid var(--dark-pink);
+  transition: all 0.3s ease-in-out;
+}
+
+.primary_button:hover {
+  background-color: transparent;
+  color: var(--dark-pink);
+  border: 1px solid var(--dark-pink);
+}
+
+.clear-all-btn {
+  background: none;
+  border: none;
+  color: var(--black);
+  font-size: 13px;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 6px 12px;
+  font-weight: 500;
+}
+
+.clear-all-btn:hover {
+  color: var(--dark-pink);
+}
+
+.clear_fix {
+  position: relative;
+  left: -2px;
+}
+/* ============================================
+   CUSTOM SCROLLBAR
+   ============================================ */
+.scrollbar_custom::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f1f1f1;
+}
+
+.scrollbar_custom::-webkit-scrollbar-thumb {
+  background-color: #b3b3b3;
+  border-radius: 1px;
+}
+
+.scrollbar_custom::-webkit-scrollbar-thumb:hover {
+  background-color: #5a5a5a;
+}
+
+/* ============================================
+   CONTAINER
+   ============================================ */
+.albarose_container {
+  padding-inline-start: 60px;
+  padding-inline-end: 60px;
+  max-width: 1600px;
+  margin-inline: auto;
+}
+
+/* ============================================
+   layout helpers
+   ============================================ */
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+/* ============================================
+   HEADER SECTION
+   ============================================ */
+.sub-header {
+  background-color: var(--light-pink);
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.sub-header .contacts_link {
+  font-family: var(--font-cormorant);
+}
+
+.sub-header .contacts_link ul.sub-menu li {
+  font-size: 0.875rem;
+  padding: 0rem 0.425rem;
+  line-height: 1;
+}
+
+.sub-header .contacts_link ul.sub-menu li a {
+  font-weight: 500;
+  text-decoration: underline;
+  line-height: 1;
+}
+
+.sub-header .contacts_link ul.sub-menu li:first-child {
+  padding-left: 0;
+}
+.sub-header .contacts_link ul.sub-menu li:not(:last-child) {
+  border-right: 1px solid var(--black);
+}
+
+.sub-header .guide_link i {
+  font-size: 1.15rem;
+}
+
+.buyers-canvas-body .description p {
+  font-size: 12px !important;
+  color: #000000;
+  line-height: 150%;
+  font-weight: 400;
+  font-size: 0.875rem;
+  font-family: var(--font-inter);
+}
+
+.buyers-canvas-body .info-list {
+  font-family: var(--font-cormorant);
+  border-top: 1px solid #ddd;
+}
+
+.buyers-canvas-body .info-list li {
+  border-bottom: 1px solid #ddd;
+}
+
+.buyers-canvas-body .info-list li a {
+  color: var(--black);
+  padding: 12px 0;
+  display: block;
+  font-size: 23px;
+  font-weight: 400;
+  display: flex;
+  width: 100%;
+  gap: 15px;
+  justify-content: space-between;
+  transition: all 0.3s ease-in-out;
+  font-family: var(--font-cormorant);
+}
+.buyers-canvas-body .buyers_list {
+  padding-right: 5px;
+}
+
+.christmas_list p {
+  font-size: 14px;
+  color: var(--black);
+  line-height: 150%;
+  font-weight: 400;
+  font-family: var(--font-inter);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 14px;
+  transition: all 0.4s ease-in-out;
+  height: 80px;
+}
+
+header .logo img {
+  width: 180px;
+}
+
+header.fixed {
+  position: fixed;
+  height: 60px !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  background-color: var(--white);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease-in-out;
+}
+
+.header-off-canvas .offcanvas-header {
+  border-bottom: none !important;
+  padding: 15px 0;
+}
+
+.header-off-canvas .offcanvas-body {
+  padding-top: 5px !important;
+}
+
+.header-off-canvas .ring-item-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px 15px;
+}
+
+.header-off-canvas .ring-item-row .ring-item a {
+  font-size: 1.15rem;
+  font-family: var(--font-cormorant);
+  color: var(--black);
+  transition: all 0.3s ease-in-out;
+  display: block;
+  width: fit-content;
+  font-weight: 400;
+}
+
+.header-off-canvas .ring-item-row .ring-item .image_box {
+  background-color: var(--gray-200);
+  height: 118px;
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  margin-top: 0.5rem;
+}
+
+.header-off-canvas .ring-item-row .ring-item .image_box img {
+  width: 100%;
+  object-fit: contain;
+  height: 100px;
+}
+
+.header-off-canvas .ring-item-list {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.header-off-canvas .ring-item-list li a {
+  font-size: 18px;
+}
+
+.header-off-canvas .features-list {
+  padding: 0px 10px 0px 10px;
+}
