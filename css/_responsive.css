@@ -350,6 +350,10 @@
   .value_sec .image_item_row img {
     height: 300px;
   }
+
+  .why_choose_sec .choose_us_list ul li {
+    font-size: 14px;
+  }
 }
 
 /* ============================================
@@ -472,6 +476,10 @@
   }
 
   .cart_table .remove_link {
+    font-size: 12px;
+  }
+
+  .why_choose_sec .choose_us_list ul li {
     font-size: 12px;
   }
 }

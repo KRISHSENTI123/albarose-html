@@ -71,6 +71,7 @@ ul li {
   margin: 0;
   padding: 0;
   list-style: none;
+  line-height: 150%;
 }
 .w-fit {
   width: fit-content !important;

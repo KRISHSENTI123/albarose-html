@@ -85,6 +85,35 @@
   color: var(--black);
 }
 
+/* order page */
+.step_item_row {
+  display: grid;
+  grid-template-columns: 1fr 520px;
+  gap: 20px;
+}
+
+.step_item_row .step_content p {
+  max-width: 520px;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.step_item_row:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.step_item_row .step_image img {
+  height: 270px;
+  object-fit: cover;
+}
+
+.why_choose_sec .choose_us_list ul {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
 @media (max-width: 1199px) {
   .features_about_sec .features_row {
     padding: 0px 2.5rem;
@@ -93,6 +122,10 @@
   .review_sec .review_grid_column .client_content p {
     font-size: 20px;
   }
+  .step_item_row {
+    display: grid;
+    grid-template-columns: 1fr 450px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -100,6 +133,11 @@
     display: flex;
     white-space: nowrap;
     overflow-x: auto;
+  }
+
+  .step_item_row {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
   .pet-ashes-materials .materials_sec_row::-webkit-scrollbar {
