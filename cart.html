@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="icon" type="image/x-icon" href="images/Favicon-Icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.0.6/css/all.css">
+    <link rel="stylesheet" href="css/_style.css">
+</head>
+
+<body>
+    <div class="sub-header">
+        <div class="albarose_container">
+            <div class="d-flex justify-content-between align-items-center gap-2">
+                <div class="contacts_link">
+                    <ul class="sub-menu d-flex">
+                        <li><a href="#" class="font-cormorant" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#buyersGuide" aria-controls="buyersGuide">Buyers Guide</a></li>
+                        <li><a href="#" class="font-cormorant">FAQ’s</a></li>
+                        <li><a href="#" class="font-cormorant" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#christmasDelivery" aria-controls="christmasDelivery">Christmas
+                                Delivery</a></li>
+                    </ul>
+                    <div class="offcanvas right-sidebar-customise metal_glass_sidebar offcanvas-end" tabindex="-1"
+                        id="buyersGuide" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title font-cormorant" id="offcanvasRightLabel">Buyers Guide</div>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body d-flex buyers-canvas-body py-4">
+                            <div
+                                class="d-flex w-100 buyers_list overflow-auto flex-column gap-3 flex-grow-1 flex-shrink-1 scrollbar_custom">
+                                <div class="description mb-0 ">
+                                    <p>This easy to navigate guide has been designed to help answer any questions you
+                                        may
+                                        have about our products and services.</p>
+                                    <p class="mt-3">If you still have questions, feel free to contact our customer
+                                        service
+                                        team using the chat button in the bottom right of the screen, and we’ll get back
+                                        to
+                                        you as soon as we are able.</p>
+                                </div>
+                                <ul class="menu info-list flex-column d-flex">
+                                    <li><a href="#"><span>How to Order</span> <i class="far fa-angle-right"></i></a>
+                                    </li>
+                                    <li><a href="#"><span>Buy Now Pay Later</span> <i
+                                                class="far fa-angle-right"></i></a></li>
+                                    <li><a href="#"><span>Murano Glass Gemstones</span> <i
+                                                class="far fa-angle-right"></i></a></li>
+                                    <li><a href="#"><span>Precious Metals</span> <i class="far fa-angle-right"></i></a>
+                                    </li>
+                                    <li><a href="#"><span>Measure Your Finger Size</span> <i
+                                                class="far fa-angle-right"></i></a></li>
+                                    <li><a href="#"><span>Personalised Engraving</span> <i
+                                                class="far fa-angle-right"></i></a></li>
+                                    <li><a href="#"><span>Production Times</span> <i class="far fa-angle-right"></i></a>
+                                    </li>
+                                    <li><a href="#"><span>Adjustable Chains</span> <i
+                                                class="far fa-angle-right"></i></a></li>
+                                    <li><a href="#"><span>3 Year Warranty</span> <i class="far fa-angle-right"></i></a>
+                                    </li>
+                                    <li><a href="#"><span>Free Shipping</span> <i class="far fa-angle-right"></i></a>
+                                    </li>
+                                    <li><a href="#"><span>Authenticity Certificate</span> <i
+                                                class="far fa-angle-right"></i></a></li>
+                                    <li><a href="#"><span>Gift Packaging</span> <i class="far fa-angle-right"></i></a>
+                                    </li>
+                                    <li><a href="#"><span>Free Returns</span></a></li>
+                                </ul>
+                                <div class="button_group flex-column gap-2 mt-3 d-flex">
+                                    <button class="primary_button w-100 font-inter fw-medium">Chat to us Online</button>
+                                    <button class="primary_button w-100 font-inter fw-medium">Message us on
+                                        Whatsapp</button>
+                                    <button class="primary_button w-100 font-inter fw-medium">Send us an Email</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="offcanvas right-sidebar-customise metal_glass_sidebar offcanvas-end" tabindex="-1"
+                        id="christmasDelivery" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title font-cormorant" id="offcanvasRightLabel">Christmas Delivery
+                            </div>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body d-flex buyers-canvas-body py-4">
+                            <div
+                                class="d-flex christmas_list w-100 pe-1 overflow-auto font-inter flex-column gap-3 flex-grow-1 flex-shrink-1 scrollbar_custom">
+                                <p>To ensure your Alba Rose ashes jewellery arrives in time for Christmas, please place
+                                    your order before Sunday, 1st December 2025.</p>
+                                <p>Our jewellery is individually handcrafted with great care, and each piece takes
+                                    several weeks to complete.</p>
+                                <p class="text-decoration-underline underline-offset text-primary">
+                                    <a href="#" class="text-primary">
+                                        Orders placed after 1st December will continue to be accepted, but delivery
+                                        before Christmas cannot be guaranteed
+                                    </a>
+                                </p>
+                                <p>These orders will be scheduled for completion and dispatch during the second week of
+                                    January 2026.</p>
+                                <p>If you have already placed your order, please ensure that your ashes kit reaches us
+                                    no later than Saturday, 7th December 2025.</p>
+                                <p>Any ashes received after this date will mean your order will be completed after
+                                    Christmas, even if it was placed before the ordering deadline.</p>
+                                <p>We kindly encourage all customers wishing to gift a piece of memorial jewellery this
+                                    Christmas to place their order early.</p>
+                                <p>Every Alba Rose creation is hand-crafted with love, care, and precision — a beautiful
+                                    and lasting tribute, made to be treasured for years to come.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="guide_link d-flex gap-2">
+                    <a href="#">
+                        <img src="images/facebook.svg" alt="phone" />
+                    </a>
+                    <a href="#">
+                        <img src="images/instagram.svg" alt="instagram" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="albarose_container w-100">
+            <div class="d-flex align-items-center justify-content-between gap-4">
+                <div class="logo_menu d-flex gap-4 align-items-center">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="images/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <ul class="menu d-lg-flex d-none gap-4">
+                        <li><a href="#">Ashes Jewellery</a></li>
+                        <li><a href="#">How it’s Made</a></li>
+                        <li><a href="#">How to Order</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="d-lg-flex align-items-center d-none gap-1">
+                    <div class="profile">
+                        <img src="images/profile.svg" alt="profile">
+                    </div>
+                    <div class="search">
+                        <img src="images/favourite.svg" alt="favourites">
+                    </div>
+                    <div class="cart">
+                        <img src="images/bag.svg" alt="cart">
+                    </div>
+                </div>
+                <div class="d-lg-none d-flex align-items-center gap-2">
+                    <div class="cart">
+                        <img src="images/bag.svg" alt="cart">
+                    </div>
+                    <div class="profile">
+                        <img src="images/profile.svg" alt="profile">
+                    </div>
+                    <div class="bars" data-bs-toggle="offcanvas" data-bs-target="#mobileSidebar"
+                        aria-controls="mobileSidebar" type="button" role="button">
+                        <img src="images/menu.svg" alt="bars">
+                    </div>
+                    <div class="offcanvas header-off-canvas right-sidebar-customise metal_glass_sidebar offcanvas-end"
+                        tabindex="-1" id="mobileSidebar" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title font-cormorant" id="offcanvasRightLabel">Menu</div>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body d-flex flex-column gap-3 py-4">
+                            <div class="ring-listing pe-1 flex-shrink-1 flex-grow-1 overflow-auto scrollbar_custom">
+                                <div class="ring-item-row">
+                                    <div class="ring-item">
+                                        <a href="#">Ladies Rings</a>
+                                        <div class="image_box">
+                                            <img class="img-fluid" src="images/ring-1.png" alt="ring" />
+                                        </div>
+                                    </div>
+                                    <div class="ring-item">
+                                        <a href="#">Ladies Pendants</a>
+                                        <div class="image_box">
+                                            <img class="img-fluid" src="images/ring-1.png" alt="ring" />
+                                        </div>
+                                    </div>
+
+                                    <div class="ring-item">
+                                        <a href="#">Charms</a>
+                                        <div class="image_box">
+                                            <img class="img-fluid" src="images/ring-1.png" alt="ring" />
+                                        </div>
+                                    </div>
+                                    <div class="ring-item">
+                                        <a href="#">Bracelets</a>
+                                        <div class="image_box">
+                                            <img class="img-fluid" src="images/ring-1.png" alt="ring" />
+                                        </div>
+                                    </div>
+                                    <div class="ring-item">
+                                        <a href="#">Gents Rings</a>
+                                        <div class="image_box">
+                                            <img class="img-fluid" src="images/ring-1.png" alt="ring" />
+                                        </div>
+                                    </div>
+                                    <div class="ring-item">
+                                        <a href="#">Gents Pendants</a>
+                                        <div class="image_box">
+                                            <img class="img-fluid" src="images/ring-1.png" alt="ring" />
+                                        </div>
+                                    </div>
+                                    <div class="ring-item">
+                                        <a href="#">Earrings</a>
+                                        <div class="image_box">
+                                            <img class="img-fluid" src="images/ring-1.png" alt="ring" />
+                                        </div>
+                                    </div>
+                                    <div class="ring-item">
+                                        <a href="#">Pet Ashes Jewellery</a>
+                                        <div class="image_box">
+                                            <img class="img-fluid" src="images/ring-1.png" alt="ring" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="ring-item-list d-flex flex-column gap-3 mt-4">
+                                    <li><a href="#" class="font-cormorant">How It’s Made</a></li>
+                                    <li><a href="#" class="font-cormorant">How to Order</a></li>
+                                    <li><a href="#" class="font-cormorant">About Us</a></li>
+                                </ul>
+                                <ul class="features-list d-flex flex-column gap-3 mt-4">
+                                    <li><a href="#" class="font-inter"><img src="images/profile-footer.svg" class="pe-1"
+                                                alt="metal" /> My
+                                            Account</a></li>
+                                    <li><a href="#" class="font-inter"><img src="images/favourite.svg" class="pe-1"
+                                                alt="metal" />
+                                            Favorites</a></li>
+                                    <li><a href="#" class="font-inter clear_fix"><img src="images/location.svg"
+                                                class="pe-1" alt="metal" /> Find a
+                                            Store</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- mobile sidebar -->
+    <div class="offers_sec text-center">
+        <div class="albarose_container">
+            <h1 class="text-center offers_text">Over 1000 5 Star Reviews and Counting!</h1>
+        </div>
+    </div>
+
+    <section class="cart_sec py-lg-5 py-4">
+        <div class="albarose_container">
+            <div class="cart_items_row">
+                <div class="cart_item">
+                    <table class="cart_table table">
+                        <thead>
+                            <tr>
+                                <th>Your Cart</th>
+                                <th class="text-end">Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="product d-flex gap-sm-3 gap-2 align-items-start">
+                                        <div class="product_image">
+                                            <img src="images/ring-1.png" alt="ring" />
+                                        </div>
+                                        <div class="product_details flex-shrink-1 flex-grow-1">
+                                            <p class="font-cormorant">Tribute Ring </p>
+                                            <p class="font-cormorant">Sapphire Murano Glass</p>
+                                            <p>Metal: 9ct White Gold</p>
+                                            <p>Ring Size: I’m Unsure, send a sizing tool</p>
+                                            <p>Engraving: Always & Forever</p>
+                                            <div class="d-flex flex-row align-items-center justify-content-between">
+                                                <p class="text-primary fw-medium">20% Off</p>
+                                                <div class="price_details align-items-end d-flex d-sm-none flex-column">
+                                                    <p><del>£240.00</del></p>
+                                                    <p>£200.00</p>
+                                                </div>
+                                            </div>
+                                            <a href="#"
+                                                class="remove_link fw-medium text-decoration-underline w-fit d-block mt-sm-3 mt-2">Remove</a>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="price_details align-items-end d-flex flex-column">
+                                        <p><del>£240.00</del></p>
+                                        <p>£200.00</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="order_item">
+                    <h2 class="font-cormorant fs_34_heading fw-medium">Order Summary</h2>
+                    <div class="price_table mt-3">
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>Subtotal</span>
+                            <span>£160</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>VAT</span>
+                            <span>£40</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-3">
+                            <span>Complimentary Gift Packaging</span>
+                            <span>£0</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-4">
+                            <span>UK Tracked Delivery</span>
+                            <span>£0</span>
+                        </div>
+                        <div class="d-flex total_span justify-content-between">
+                            <strong>Total</strong>
+                            <strong>£200</strong>
+                        </div>
+                    </div>
+                    <button class="primary_button w-100 mt-3">Checkout</button>
+                    <p class="mt-3">By clicking Checkout, you agree to Alba Rose’s <a href="#"
+                            class="text-decoration-underline text-primary">Terms & Conditions</a> and <a href="#"
+                            class="text-decoration-underline text-primary">Privacy Policy</a>.
+                    </p>
+                    <div class="klarna_image mt-3">
+                        <img src="images/klarna_cart.png" class="w-100" alt="klarna">
+                    </div>
+                    <div class="features-list cart-features-list rounded-1 mt-3">
+                        <div class="feature-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M0 4.5V6H14.25V17.25H9.633C9.2985 15.9607 8.139 15 6.75 15C5.361 15 4.2015 15.9607 3.867 17.25H3V13.5H1.5V18.75H3.867C4.2015 20.0393 5.361 21 6.75 21C8.139 21 9.2985 20.0393 9.633 18.75H15.867C16.2015 20.0393 17.361 21 18.75 21C20.139 21 21.2985 20.0393 21.633 18.75H24V12.633L23.9528 12.5153L22.4528 8.01525L22.29 7.5H15.75V4.5H0ZM0.75 7.5V9H7.5V7.5H0.75ZM15.75 9H21.2108L22.5 12.8438V17.25H21.633C21.2985 15.9607 20.139 15 18.75 15C17.361 15 16.2015 15.9607 15.867 17.25H15.75V9ZM1.5 10.5V12H6V10.5H1.5ZM6.75 16.5C7.58775 16.5 8.25 17.1622 8.25 18C8.25 18.8378 7.58775 19.5 6.75 19.5C5.91225 19.5 5.25 18.8378 5.25 18C5.25 17.1622 5.91225 16.5 6.75 16.5ZM18.75 16.5C19.5877 16.5 20.25 17.1622 20.25 18C20.25 18.8378 19.5877 19.5 18.75 19.5C17.9123 19.5 17.25 18.8378 17.25 18C17.25 17.1622 17.9123 16.5 18.75 16.5Z"
+                                    fill="#525252" />
+                            </svg>
+                            <a class="feature-text linkhover cursor-pointer" data-bs-toggle="offcanvas"
+                                data-bs-target="#freeShipSidebar" aria-controls="freeShipSidebar">
+                                Free shipping on all orders.</a>
+                            <div class="offcanvas right-sidebar-customise metal_style_sidebar offcanvas-end"
+                                tabindex="-1" id="freeShipSidebar" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h3 class="offcanvas-title font-cormorant" id="offcanvasRightLabel">
+                                        Free Shipping
+                                    </h3>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body d-flex flex-column py-4">
+                                    <p class="fs_12 fs_12_mobile mb-3">Every Alba Rose order comes with free shipping,
+                                        no matter
+                                        the value of your purchase.</p>
+
+                                    <p class="fs_12 fs_12_mobile mb-3">We believe that something as meaningful as
+                                        memorial
+                                        jewellery should arrive with care and without extra cost.
+                                        Your jewellery will be securely packaged and sent by tracked delivery, giving
+                                        you peace of
+                                        mind
+                                        every step of the way.</p>
+
+                                    <p class="fs_12 fs_12_mobile mb-3">Whether you are ordering for yourself or sending
+                                        a
+                                        heartfelt gift, delivery is always free —
+                                        it’s our way of making the process as simple and stress-free as possible.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="featureicon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"
+                                    fill="none">
+                                    <path
+                                        d="M19 11V20.4C19 20.4788 18.9845 20.5568 18.9543 20.6296C18.9242 20.7024 18.88 20.7685 18.8243 20.8243C18.7685 20.88 18.7024 20.9242 18.6296 20.9543C18.5568 20.9845 18.4788 21 18.4 21H3.6C3.52121 21 3.44319 20.9845 3.37039 20.9543C3.29759 20.9242 3.23145 20.88 3.17574 20.8243C3.12002 20.7685 3.07583 20.7024 3.04567 20.6296C3.01552 20.5568 3 20.4788 3 20.4V11M11 21V6M11 6H6.5C5.83696 6 5.20107 5.73661 4.73223 5.26777C4.26339 4.79893 4 4.16304 4 3.5C4 2.83696 4.26339 2.20107 4.73223 1.73223C5.20107 1.26339 5.83696 1 6.5 1C10 1 11 6 11 6ZM11 6H15.5C16.163 6 16.7989 5.73661 17.2678 5.26777C17.7366 4.79893 18 4.16304 18 3.5C18 2.83696 17.7366 2.20107 17.2678 1.73223C16.7989 1.26339 16.163 1 15.5 1C12 1 11 6 11 6ZM20.4 6H1.6C1.44087 6 1.28826 6.06321 1.17574 6.17574C1.06321 6.28826 1 6.44087 1 6.6V10.4C1 10.5591 1.06321 10.7117 1.17574 10.8243C1.28826 10.9368 1.44087 11 1.6 11H20.4C20.5591 11 20.7117 10.9368 20.8243 10.8243C20.9368 10.7117 21 10.5591 21 10.4V6.6C21 6.44087 20.9368 6.28826 20.8243 6.17574C20.7117 6.06321 20.5591 6 20.4 6Z"
+                                        stroke="#525252" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <a class="feature-text linkhover cursor-pointer" title="Gift" data-bs-toggle="offcanvas"
+                                data-bs-target="#giftSidebar" aria-controls="giftSidebar">A complimentary Gift Box with
+                                every
+                                item.</a>
+                            <div class="offcanvas right-sidebar-customise metal_style_sidebar offcanvas-end"
+                                tabindex="-1" id="giftSidebar" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h3 class="offcanvas-title font-cormorant" id="offcanvasRightLabel">
+                                        Gift Packaging
+                                    </h3>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body d-flex flex-column py-4">
+                                    <p class="fs_12 fs_12_mobile mb-3">Every piece of Alba Rose jewellery arrives in our
+                                        luxurious gift packaging, designed to make the moment of receiving it as special
+                                        as the
+                                        jewellery itself.</p>
+
+                                    <p class="fs_12 fs_12_mobile mb-3">Your chosen piece is carefully presented in a
+                                        high-quality
+                                        keepsake box, complete with our signature touches. Whether you are ordering for
+                                        yourself or as
+                                        a
+                                        gift for someone dear,
+                                        the presentation reflects the care, respect, and craftsmanship that goes into
+                                        every item we
+                                        create.</p>
+
+                                    <p class="fs_12 fs_12_mobile mb-3">Our packaging is not only beautiful, but also a
+                                        lasting
+                                        keepsake in its own right — a box that can be treasured, just like the jewellery
+                                        inside.</p>
+                                    <img src="images/engrave-guide.png" alt="Gift image">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="featureicon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M3.75 3.78125H20.25C20.6395 3.78125 21.0126 3.93647 21.2881 4.21191C21.5635 4.48736 21.7188 4.86046 21.7188 5.25V8.12598L21.7285 8.13477C22.1995 8.58583 22.574 9.12776 22.8301 9.72754C23.0862 10.3274 23.2188 10.9728 23.2188 11.625C23.2188 12.2772 23.0862 12.9226 22.8301 13.5225C22.574 14.1222 22.1995 14.6642 21.7285 15.1152L21.7188 15.124V21C21.7199 21.1267 21.6876 21.2521 21.625 21.3623C21.5624 21.4724 21.4717 21.5641 21.3623 21.6279C21.253 21.6917 21.1285 21.7252 21.002 21.7256C20.9069 21.7258 20.8128 21.707 20.7256 21.6709L20.6406 21.6289L18.3906 20.3408L18.375 20.332L18.3594 20.3408L16.1094 21.6289C15.9996 21.6923 15.8748 21.7259 15.748 21.7256C15.6215 21.7252 15.497 21.6917 15.3877 21.6279C15.2783 21.5641 15.1876 21.4724 15.125 21.3623C15.0624 21.2521 15.0301 21.1267 15.0312 21V18.7188H3.75C3.36046 18.7188 2.98736 18.5635 2.71191 18.2881C2.43647 18.0126 2.28125 17.6395 2.28125 17.25V5.25C2.28125 4.86046 2.43647 4.48736 2.71191 4.21191C2.98736 3.93647 3.36046 3.78125 3.75 3.78125ZM20.2383 16.0957C19.6481 16.3423 19.0146 16.4697 18.375 16.4697C17.7354 16.4697 17.1019 16.3423 16.5117 16.0957L16.4688 16.0781V19.7617L16.5156 19.7354L18.0156 18.877C18.1242 18.8149 18.247 18.7822 18.3721 18.7822C18.4972 18.7822 18.6199 18.8149 18.7285 18.877L20.2285 19.7354L20.2754 19.7617V19.708L20.2812 16.125V16.0781L20.2383 16.0957ZM19.6787 8.47852C19.0564 8.22076 18.3715 8.15287 17.7109 8.28418C17.0502 8.41561 16.4432 8.74042 15.9668 9.2168C15.4904 9.69317 15.1656 10.3002 15.0342 10.9609C14.9029 11.6215 14.9708 12.3064 15.2285 12.9287C15.4863 13.5509 15.9225 14.0828 16.4824 14.457C17.0426 14.8313 17.7013 15.0312 18.375 15.0312C18.8223 15.0312 19.2654 14.9427 19.6787 14.7715C20.0918 14.6003 20.467 14.3494 20.7832 14.0332C21.0994 13.717 21.3503 13.3418 21.5215 12.9287C21.6927 12.5154 21.7812 12.0723 21.7812 11.625C21.7812 10.9513 21.5813 10.2926 21.207 9.73242C20.8328 9.17246 20.3009 8.73632 19.6787 8.47852ZM6.75 12.0312H11.25C11.4406 12.0312 11.623 12.1074 11.7578 12.2422C11.8926 12.377 11.9688 12.5594 11.9688 12.75C11.9688 12.9406 11.8926 13.123 11.7578 13.2578C11.623 13.3926 11.4406 13.4688 11.25 13.4688H6.75C6.55938 13.4688 6.37698 13.3926 6.24219 13.2578C6.1074 13.123 6.03125 12.9406 6.03125 12.75C6.03125 12.5594 6.1074 12.377 6.24219 12.2422C6.37698 12.1074 6.55938 12.0312 6.75 12.0312ZM6.75 9.03125H11.25C11.4406 9.03125 11.623 9.1074 11.7578 9.24219C11.8926 9.37698 11.9688 9.55938 11.9688 9.75C11.9688 9.94062 11.8926 10.123 11.7578 10.2578C11.623 10.3926 11.4406 10.4688 11.25 10.4688H6.75C6.55938 10.4688 6.37698 10.3926 6.24219 10.2578C6.1074 10.123 6.03125 9.94062 6.03125 9.75C6.03125 9.55938 6.1074 9.37698 6.24219 9.24219C6.37698 9.1074 6.55938 9.03125 6.75 9.03125ZM15.0312 15.125L15.0215 15.1152C14.2095 14.3321 13.6961 13.29 13.5703 12.1689C13.4445 11.0478 13.7148 9.91826 14.333 8.97461C14.9512 8.03102 15.879 7.33236 16.957 7C18.0352 6.66767 19.196 6.7225 20.2383 7.1543L20.2812 7.17188V5.21875H3.71875V17.2812H15.0312V15.125Z"
+                                        fill="#525252" stroke="#525252" stroke-width="0.0625" />
+                                </svg>
+                            </div>
+                            <a class="feature-text linkhover cursor-pointer" title="certificate"
+                                data-bs-toggle="offcanvas" data-bs-target="#authenticitySidebar"
+                                aria-controls="authenticitySidebar">Certificate of
+                                Authenticity included.</a>
+                            <div class="offcanvas right-sidebar-customise metal_style_sidebar offcanvas-end"
+                                tabindex="-1" id="authenticitySidebar" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h3 class="offcanvas-title font-cormorant" id="offcanvasRightLabel">
+                                        Authenticity Certificate
+                                    </h3>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body d-flex flex-column py-4">
+                                    <p class="fs_12 fs_12_mobile mb-3">With every piece of Alba Rose jewellery, you will
+                                        receive
+                                        a Certificate of Authenticity. This certificate is our promise that the gemstone
+                                        we have
+                                        created
+                                        truly contains the ashes of your loved one, carefully and respectfully encased
+                                        within the
+                                        Murano
+                                        glass.</p>
+
+                                    <p class="fs_12 fs_12_mobile mb-3">We understand the deep trust you place in us when
+                                        sending
+                                        something so precious. The certificate provides you with reassurance and peace
+                                        of mind —
+                                        a written confirmation of the care, integrity, and craftsmanship behind your
+                                        jewellery.</p>
+
+                                    <p class="fs_12 fs_12_mobile mb-3">Each certificate is unique to your order and
+                                        serves as a
+                                        lasting record,
+                                        ensuring you can treasure your jewellery with complete confidence.</p>
+                                    <img src="images/engrave-guide.png" alt="Authenticity image">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="featureicon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none">
+                                    <path
+                                        d="M1.85397 13.0731C1.59283 12.7695 1.44922 12.3824 1.44922 11.982C1.44922 11.5815 1.59283 11.1944 1.85397 10.8908C2.24026 10.4417 2.62769 9.99997 3.01626 9.56568C2.89854 9.00225 2.7854 8.43311 2.67683 7.85825C2.60216 7.46476 2.67112 7.05753 2.87119 6.71056C3.07125 6.36359 3.38915 6.0999 3.76711 5.9674C4.32711 5.77083 4.88369 5.58168 5.43683 5.39997C5.61626 4.85254 5.80311 4.30283 5.9974 3.75083C6.12983 3.37355 6.39298 3.05617 6.73921 2.85616C7.08544 2.65616 7.49185 2.58676 7.88483 2.66054C8.45626 2.76797 9.02311 2.87997 9.5854 2.99654C10.0128 2.61483 10.4471 2.23425 10.8883 1.85483C11.1918 1.59368 11.579 1.45007 11.9794 1.45007C12.3798 1.45007 12.767 1.59368 13.0705 1.85483C13.5163 2.23654 13.9528 2.6194 14.3803 3.0034C14.9517 2.8834 15.5283 2.76911 16.11 2.66054C16.5032 2.58632 16.91 2.6555 17.2566 2.85553C17.6032 3.05557 17.8666 3.3732 17.9991 3.75083C18.1934 4.30397 18.3803 4.85368 18.5597 5.39997C19.1128 5.58283 19.6694 5.77197 20.2294 5.9674C21.0094 6.24168 21.4723 7.04397 21.3197 7.85825C21.21 8.4434 21.0951 9.02225 20.9751 9.59483C21.3637 10.0303 21.7523 10.4743 22.1408 10.9268C22.4022 11.2302 22.5461 11.6172 22.5464 12.0176C22.5468 12.4181 22.4034 12.8053 22.1425 13.1091C21.7574 13.5583 21.37 14 20.9803 14.4343C21.0991 14.9977 21.2123 15.5674 21.3197 16.1434C21.3939 16.5366 21.3247 16.9435 21.1247 17.2901C20.9247 17.6367 20.607 17.9001 20.2294 18.0325C19.6694 18.2291 19.1128 18.4183 18.5597 18.6C18.3791 19.1485 18.1923 19.6983 17.9991 20.2491C17.867 20.6271 17.6037 20.9451 17.257 21.1454C16.9104 21.3458 16.5034 21.4152 16.11 21.3411C15.5421 21.2339 14.9752 21.1214 14.4094 21.0034C13.982 21.3863 13.5477 21.7668 13.1065 22.1451C12.803 22.4063 12.4158 22.5499 12.0154 22.5499C11.615 22.5499 11.2278 22.4063 10.9243 22.1451C10.4785 21.7634 10.042 21.3805 9.61454 20.9965C9.04311 21.1165 8.46654 21.2308 7.88483 21.3394C7.49159 21.4136 7.08477 21.3444 6.73817 21.1444C6.39157 20.9444 6.12815 20.6267 5.99569 20.2491C5.80356 19.7012 5.6167 19.1515 5.43511 18.6C4.87669 18.4169 4.32009 18.2283 3.7654 18.0343C3.38743 17.9018 3.06954 17.6381 2.86947 17.2911C2.66941 16.9441 2.60044 16.5369 2.67511 16.1434C2.78483 15.5571 2.89969 14.9777 3.01969 14.4051C2.6268 13.9649 2.23821 13.5209 1.85397 13.0731Z"
+                                        stroke="#525252" stroke-width="1.5" stroke-linejoin="round" />
+                                    <path
+                                        d="M7.91992 13.2651L10.6491 16.08C11.9348 12.3891 13.0045 10.7691 15.4285 8.57141"
+                                        stroke="#525252" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </div>
+                            <a class="feature-text linkhover cursor-pointer" title="warranty" data-bs-toggle="offcanvas"
+                                data-bs-target="#manufacturerSidebar" aria-controls="manufacturerSidebar">3 Year
+                                Manufacturers
+                                Warranty.</a>
+                            <div class="offcanvas right-sidebar-customise metal_style_sidebar offcanvas-end"
+                                tabindex="-1" id="manufacturerSidebar" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h3 class="offcanvas-title font-cormorant" id="offcanvasRightLabel">
+                                        3 Year Warranty
+                                    </h3>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body d-flex flex-column py-4">
+                                    <div class="flex-shrink-1 flex-grow-1 overflow-auto scrollbar_custom pe-1">
+                                        <p class="fs_12 fs_12_mobile mb-3">We want every piece of Alba Rose Ashes
+                                            jewellery to be
+                                            cherished for a lifetime, which is why we offer a comprehensive 3 Year
+                                            Warranty on all our
+                                            items.</p>
+                                        <div class="mb-3">
+                                            <p class="mb-1 fs_12 fs_12_mobile">
+                                                <b>Our warranty covers:</b>
+                                            </p>
+                                            <ul class="pe-0 ps-3">
+                                                <li class="fs_12 disc-type fs_12_mobile">Manufacturing faults in
+                                                    materials or
+                                                    craftsmanship
+                                                </li>
+                                                <li class="fs_12 disc-type fs_12_mobile">Stone setting security,
+                                                    ensuring your glass
+                                                    gemstone is
+                                                    held safely.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="mb-3">
+                                            <p class="mb-1 fs_12 fs_12_mobile">
+                                                <b>What’s not covered:</b>
+                                            </p>
+                                            <ul class="pe-0 ps-3">
+                                                <li class="fs_12 disc-type fs_12_mobile">Normal wear and tear (such as
+                                                    scratches or
+                                                    tarnishing).</li>
+                                                <li class="fs_12 disc-type fs_12_mobile">Plating and finish , including
+                                                    rhodium or gold
+                                                    plating starting to wear away.</li>
+                                                <li class="fs_12 disc-type fs_12_mobile">Damage caused by accidents,
+                                                    improper handling, or
+                                                    contact with chemicals.</li>
+                                                <li class="fs_12 disc-type fs_12_mobile">Repairs or alterations made by
+                                                    another jeweller.
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <p class="fs_12 fs_12_mobile mb-3">If you ever experience an issue within 3
+                                            years of purchase,
+                                            simply contact our team and we will repair, replace, or restore your
+                                            jewellery free of
+                                            charge
+                                            under the terms of our warranty.</p>
+
+                                        <p class="fs_12 fs_12_mobile mb-3">We stand behind the quality of our
+                                            craftsmanship and
+                                            materials,
+                                            giving you peace of mind that your jewellery is protected and made to last.
+                                        </p>
+                                        <p class="fs_12 fs_12_mobile mb-3">If your Alba Rose jewellery has some wear and
+                                            tear, which
+                                            is
+                                            natural after years of wear, we offer a 10 day refurbishment service for
+                                            just £59 per item
+                                            to
+                                            bring your jewellery back to its new condition.</p>
+                                        <p class="fs_12 fs_12_mobile mb-3">Contact us to get your jewellery refurbished.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="featureicon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M2.69531 7.18506L11.6953 11.1851L12.3053 9.81506L3.30531 5.81506L2.69531 7.18506ZM12.7503 21.5001V10.5001H11.2503V21.5001H12.7503ZM12.3053 11.1851L21.3053 7.18506L20.6953 5.81506L11.6953 9.81506L12.3053 11.1851Z"
+                                        fill="#525252" />
+                                    <path
+                                        d="M3 17.11V6.89001C3.00003 6.77403 3.03367 6.66055 3.09685 6.56329C3.16003 6.46603 3.25005 6.38917 3.356 6.34201L11.756 2.60801C11.8328 2.57382 11.9159 2.55615 12 2.55615C12.0841 2.55615 12.1672 2.57382 12.244 2.60801L20.644 6.34201C20.75 6.38917 20.84 6.46603 20.9032 6.56329C20.9663 6.66055 21 6.77403 21 6.89001V17.11C21 17.226 20.9663 17.3395 20.9032 17.4367C20.84 17.534 20.75 17.6108 20.644 17.658L12.244 21.392C12.1672 21.4262 12.0841 21.4439 12 21.4439C11.9159 21.4439 11.8328 21.4262 11.756 21.392L3.356 17.658C3.25005 17.6108 3.16003 17.534 3.09685 17.4367C3.03367 17.3395 3.00003 17.226 3 17.11Z"
+                                        stroke="#525252" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M7.5 4.5L16.144 8.342C16.25 8.38916 16.34 8.46603 16.4032 8.56328C16.4663 8.66054 16.5 8.77402 16.5 8.89V12.5"
+                                        stroke="#525252" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                            </div>
+                            <a class="feature-text linkhover cursor-pointer" title="return" data-bs-toggle="offcanvas"
+                                data-bs-target="#returnSidebar" aria-controls="returnSidebar">Free and easy returns
+                                process.</a>
+                            <div class="offcanvas right-sidebar-customise metal_style_sidebar offcanvas-end"
+                                tabindex="-1" id="returnSidebar" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h3 class="offcanvas-title font-cormorant" id="offcanvasRightLabel">
+                                        Return Policy
+                                    </h3>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body d-flex flex-column py-4">
+                                    <div class="flex-shrink-1 flex-grow-1 overflow-auto scrollbar_custom pe-1">
+                                        <p class="fs_12 fs_12_mobile mb-3">We understand how personal and meaningful
+                                            each piece of
+                                            ashes
+                                            jewellery is. Because every item is custom made just for you, returns and
+                                            refunds are
+                                            limited
+                                            — but we always want to help when something goes wrong.</p>
+                                        <p class="fs_12 fs_12_mobile mb-3">
+                                            <b>When you can return an item?</b>
+                                        </p>
+                                        <div class="mb-3">
+                                            <p class="mb-1 fs_12 fs_12_mobile">
+                                                We can accept a return only if:
+                                            </p>
+                                            <ul class="ps-3 pe-0">
+                                                <li class="fs_12 disc-type fs_12_mobile">The jewellery doesn’t match
+                                                    what you ordered (for
+                                                    example, wrong design, engraving, or glass colour).</li>
+                                                <li class="fs_12 disc-type fs_12_mobile">There’s a manufacturing or
+                                                    quality fault.</li>
+                                            </ul>
+                                        </div>
+                                        <p class="fs_12 fs_12_mobile mb-3">
+                                            If you believe one of these applies, please contact us within 14 days of
+                                            receiving your
+                                            order.
+                                            Email us at support@albaroseashes.co.uk or call 01702 837012, including your
+                                            order number, a
+                                            description of the issue, and clear photographs if relevant
+                                        </p>
+                                        <p class="fs_12 fs_12_mobile mb-3">
+                                            Once we review your case, we’ll arrange a repair, replacement, or return
+                                            free of charge if
+                                            it
+                                            falls under our return policy.
+                                        </p>
+                                        <div class="mb-3">
+                                            <p class="mb-1 fs_12 fs_12_mobile">
+                                                <b class="d-block">Cancellations & refunds</b>
+                                                Because we personalise every piece using your entrusted ashes, we can
+                                                only issue a full
+                                                refund if:
+                                            </p>
+                                            <ul class="ps-3 pe-0">
+                                                <li class="fs_12 disc-type fs_12_mobile">You cancel before we begin work
+                                                    on your
+                                                    jewellery,
+                                                    or</li>
+                                                <li class="fs_12 disc-type fs_12_mobile">We have not yet received your
+                                                    ashes.</li>
+                                            </ul>
+                                        </div>
+                                        <p class="fs_12 fs_12_mobile mb-3">Once production starts or your ashes arrive
+                                            with us, we
+                                            cannot offer a refund due to the nature of the product.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="shine-bright border-0 mt-3 p-0">
+                        <div class="d-flex justify-content-between align-items-center gap-3">
+                            <div class="">
+                                <img src="images/Visa.svg" alt="visa" class="img-fluid" />
+                            </div>
+                            <div class="">
+                                <img src="images/Amex.svg" alt="amex" class="img-fluid" />
+                            </div>
+                            <div class="">
+                                <img src="images/PayPal.svg" alt="amex" class="img-fluid" />
+                            </div>
+                            <div class="">
+                                <img src="images/GooglePay.svg" alt="googlepay" class="img-fluid" />
+                            </div>
+                            <div class="">
+                                <img src="images/ApplePay.svg" alt="applepay" class="img-fluid" />
+                            </div>
+                            <div class="">
+                                <img src="images/Mastercard.svg" alt="mastercard" class="img-fluid" />
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center gap-3 mt-3">
+                            <div class="">
+                                <img src="images/Bancontact.svg" alt="visa" class="img-fluid" />
+                            </div>
+                            <div class="">
+                                <img src="images/Giropay.svg" alt="amex" class="img-fluid" />
+                            </div>
+                            <div class="">
+                                <img src="images/Klarna.svg" alt="amex" class="img-fluid" />
+                            </div>
+                            <div class="">
+                                <img src="images/social-2.svg" alt="googlepay" class="img-fluid" />
+                            </div>
+                            <div class="">
+                                <img src="images/AmazonPay.svg" alt="applepay" class="img-fluid" />
+                            </div>
+                            <div class="">
+                                <img src="images/revoult.svg" alt="mastercard" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="d-flex flex-sm-row flex-column images_footer py-sm-4 py-3 justify-content-between align-items-center gap-sm-5 gap-4">
+                        <div>
+                            <img src="images/assured.svg" alt="assured" class="img-fluid" />
+                        </div>
+                        <div>
+                            <img src="images/member.svg" alt="membership" class="img-fluid" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="albarose_container">
+            <div class="footer-grid">
+                <div class="footer-column d-md-block d-none">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Modern Slavery Statement</a></li>
+                        <li><a href="#">Become a Reseller</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column d-md-block d-none">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Customer Service</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Sizing & Repairs</a></li>
+                        <li><a href="#">Returns & Refunds</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column d-md-block d-none">
+                    <h4>Our Quality</h4>
+                    <ul>
+                        <li><a href="#">Murano Glass</a></li>
+                        <li><a href="#">Jewellry Care</a></li>
+                        <li><a href="#">Assay Assured</a></li>
+                        <li><a href="#">5 Star Reviews</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column d-md-block d-none">
+                    <h4>Purchasing</h4>
+                    <ul>
+                        <li><a href="#">How to Place an Order</a></li>
+                        <li><a href="#">Delivery Times</a></li>
+                        <li><a href="#">Klarna Pay in 3</a></li>
+                        <li><a href="#">Request an Order Kit</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column d-md-block d-none">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#">EDK Services Ltd</a></li>
+                        <li><a href="#">Company No: 12526758</a></li>
+                        <li><a href="#">VAT No: GB352050342</a></li>
+                        <li><a href="#">01702 837 012</a></li>
+                    </ul>
+                </div>
+                <div class="newsletter-column">
+                    <div class="newsletter-box">
+                        <h4>Get the latest offers</h4>
+                        <form>
+                            <input type="text" class="form-control" placeholder="Name" required>
+                            <input type="email" class="form-control" placeholder="Email" required>
+                            <p class="terms-text">By clicking Sign Up, you're agree to AlbaRose Terms & conditions and
+                                Privacy Policy.</p>
+                            <button type="submit" class="sign-up-btn">Sign Up</button>
+                        </form>
+
+                        <div class="shine-bright">
+                            <div class="d-flex justify-content-between align-items-center gap-3">
+                                <div class="mb-3">
+                                    <img src="images/Amex.svg" alt="amex" class="img-fluid" />
+                                </div>
+                                <div class="mb-3">
+                                    <img src="images/Klarna.svg" alt="klarna" class="img-fluid" />
+                                </div>
+                                <div class="mb-3">
+                                    <img src="images/social-2.svg" alt="social" class="img-fluid" />
+                                </div>
+                                <div class=" mb-3 text-end">
+                                    <img src="images/Visa.svg" alt="visa" class="img-fluid" />
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center gap-3">
+                                <div class="">
+                                    <img src="images/Mastercard.svg" alt="mastercard" class="img-fluid" />
+                                </div>
+                                <div class="">
+                                    <img src="images/PayPal.svg" alt="paypal" class="img-fluid" />
+                                </div>
+                                <div class="">
+                                    <img src="images/ApplePay.svg" alt="applepay" class="img-fluid" />
+                                </div>
+                                <div class="">
+                                    <img src="images/GooglePay.svg" alt="googlepay" class="img-fluid" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion d-lg-none" id="footerAccordion">
+                <!-- About Us -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#aboutUs" aria-expanded="false" aria-controls="aboutUs">
+                            About Us
+                        </button>
+                    </h2>
+                    <div id="aboutUs" class="accordion-collapse collapse" data-bs-parent="#footerAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Modern Slavery Statement</a></li>
+                                <li><a href="#">Become a Reseller</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Support -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#support" aria-expanded="false" aria-controls="support">
+                            Support
+                        </button>
+                    </h2>
+                    <div id="support" class="accordion-collapse collapse" data-bs-parent="#footerAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#">Customer Service</a></li>
+                                <li><a href="#">FAQs</a></li>
+                                <li><a href="#">Sizing & Repairs</a></li>
+                                <li><a href="#">Returns & Refunds</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#quality" aria-expanded="false" aria-controls="quality">
+                            Our Quality
+                        </button>
+                    </h2>
+                    <div id="quality" class="accordion-collapse collapse" data-bs-parent="#footerAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#">Murano Glass</a></li>
+                                <li><a href="#">Jewellry Care</a></li>
+                                <li><a href="#">Assay Assured</a></li>
+                                <li><a href="#">5 Star Reviews</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#purchasing" aria-expanded="false" aria-controls="purchasing">
+                            Purchasing
+                        </button>
+                    </h2>
+                    <div id="purchasing" class="accordion-collapse collapse" data-bs-parent="#footerAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#">How to Place an Order</a></li>
+                                <li><a href="#">Delivery Times</a></li>
+                                <li><a href="#">Klarna Pay in 3</a></li>
+                                <li><a href="#">Request an Order Kit</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="contactHeading">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#contact" aria-expanded="false" aria-controls="contact">
+                            Contact
+                        </button>
+                    </h2>
+                    <div id="contact" class="accordion-collapse collapse" data-bs-parent="#footerAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="#">EDK Services Ltd</a></li>
+                                <li><a href="#">Company No: 12526758</a></li>
+                                <li><a href="#">VAT No: GB352050342</a></li>
+                                <li><a href="#">01702 837 012</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="d-flex flex-sm-row flex-column images_footer py-sm-4 py-3 justify-content-center align-items-center gap-sm-5 gap-4">
+                <div>
+                    <img src="images/assured.svg" alt="assured" class="img-fluid" />
+                </div>
+                <div>
+                    <img src="images/member.svg" alt="membership" class="img-fluid" />
+                </div>
+            </div>
+            <div class="footer-bottom justify-content-center d-lg-flex">
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Accessibility Statement</a>
+                    <a href="#">Sitemap</a>
+                    <a href="#">Cookie Preferences</a>
+                    <a href="#">©Alba Rose</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/product.js"></script>
+</body>
+
+</html>

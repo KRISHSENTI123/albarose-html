@@ -56,9 +56,42 @@
 
 /* pet ashes */
 
+/* review page */
+.review_sec .review_grid_column {
+  border-radius: 20px;
+  padding: 1.25rem;
+  background-color: #f8f0f5;
+}
+
+.review_sec .review_grid_column .image_rating .client_img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: center;
+}
+
+.review_sec .review_grid_column h3 {
+  font-size: 1.25rem;
+  line-height: 150%;
+  color: var(--black);
+  font-weight: 400;
+  font-family: var(--font-cormorant);
+}
+.review_sec .review_grid_column .client_content p {
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: 400;
+  color: var(--black);
+}
+
 @media (max-width: 1199px) {
   .features_about_sec .features_row {
     padding: 0px 2.5rem;
+  }
+
+  .review_sec .review_grid_column .client_content p {
+    font-size: 20px;
   }
 }
 
@@ -66,7 +99,7 @@
   .pet-ashes-materials .materials_sec_row {
     display: flex;
     white-space: nowrap;
-    overflow-x: auto
+    overflow-x: auto;
   }
 
   .pet-ashes-materials .materials_sec_row::-webkit-scrollbar {
@@ -78,14 +111,18 @@
     flex: 0 0 200px;
   }
 
-  .pet-ashes-materials .materials_sec_box .image_box, .pet-ashes-materials .materials_sec_box .image_box img {
+  .pet-ashes-materials .materials_sec_box .image_box,
+  .pet-ashes-materials .materials_sec_box .image_box img {
     height: 200px !important;
+  }
+
+  .review_sec .review_grid_column .client_content p {
+    font-size: 20px;
   }
 
   /* .pet-ashes-materials .materials_sec_row .materials_sec_box {
     width: 200px;
   } */
-  
 }
 
 @media (max-width: 768px) {
@@ -108,5 +145,14 @@
 @media (max-width: 575px) {
   .pet_ashes_about_sec .image_box img {
     height: 300px;
+  }
+
+  .review_sec .review_grid_column .client_content p {
+    font-size: 16px;
+  }
+
+  .review_sec .review_grid_column .image_rating .client_img {
+    width: 70px;
+    height: 70px;
   }
 }
