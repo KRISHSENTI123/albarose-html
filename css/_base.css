@@ -71,6 +71,7 @@ ul li {
   margin: 0;
   padding: 0;
   list-style: none;
+  line-height: 150%;
 }
 .w-fit {
   width: fit-content !important;
@@ -91,6 +92,12 @@ a {
 a:hover {
   color: var(--black);
   text-decoration: none;
+}
+
+p{
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
 }
 
 .gap-6 {

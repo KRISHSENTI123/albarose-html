@@ -80,6 +80,38 @@
   text-decoration: underline;
 }
 
+.contect_sec p, .contect_sec li, .terms_sec p{
+  color: #525252;
+}
+
+.privacyList li, .dottedList li{
+  padding-bottom: 7px;
+}
+
+.dottedList li{
+  position: relative;
+  padding-left: 1.3rem;
+}
+.dottedList li::before{
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  left:5px;
+  top: 7px;
+  background-color: #525252;
+}
+.dottedListone li{
+  padding-bottom: 20px;
+}
+.dottedListone li::before{
+  top: 9px;
+}
+.subHdn20{
+  font-size: 20px;
+  line-height: 150%;
+}
 
 /* Responsive */
 @media (max-width: 1100px) {
@@ -114,12 +146,22 @@
    }
 }
 
+@media (max-width: 991px) {
+  .privacyList li, .dottedList li{
+    font-size: 14px;
+   }
+   .subHdn20{
+    font-size: 18px;
+   }
+}
 
 @media (max-width: 575px) {
   .howItWorks h2{
     font-size: 20px;
   }
-
+  .banner_sec  .fs_26{
+    font-size: 16px !important;
+  }
   .howItWorks img {
     height: 265px;
   }
@@ -130,8 +172,20 @@
   .becomePartner h2{
     margin-bottom: 12px;
   }
+  .subHdn20{
+    font-size: 13px;
+   }
   .resellerAccordian_sec {
       padding: 40px 0rem;
    }
+   .privacyList li, .dottedList li{
+    font-size: 12px;
+   }
+   .dottedListone .fs-5{
+      font-size: 14px !important;
+      font-weight: 500;
+   }
 }
+
+
 
