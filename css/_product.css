@@ -319,14 +319,15 @@
 }
 
 .materials_sec .materials_sec_box .image_content .product_name {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 500;
+  line-height: 140%;
 }
 
 .materials_sec .materials_sec_box .image_content .product_price {
   font-weight: 300;
   font-style: italic;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .materials_sec .materials_sec_box .new_tag {
@@ -423,18 +424,19 @@
 }
 
 .trending_sec .trending_grid_column .product_name {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 500;
   white-space: normal;
   display: block;
   word-wrap: break-word;
   word-break: break-word;
+  line-height: 130%;
 }
 
 .trending_sec .trending_grid_column .product_price {
   font-weight: 300;
   font-style: italic;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .slide-btn {
