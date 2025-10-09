@@ -14,7 +14,10 @@
   br {
     display: none;
   }
-
+  .fs_34_heading {
+    font-size: 26px !important;
+    line-height: 150%;
+  }
   .offers_sec h1 {
     font-size: 1rem;
   }
@@ -152,7 +155,7 @@
 
   .slide-btn.prev-btn,
   .slide-btn.next-btn {
-    top: -33px;
+    top: -36px;
   }
 
   .faq_sec .accordion-button.collapsed::before {
@@ -393,6 +396,13 @@
     height: 280px;
   }
 
+  .trending_sec .trending_grid_column .product_name {
+    font-size: 14px;
+  }
+  .materials_sec .materials_sec_box .image_content .product_price, .trending_sec .trending_grid_column .product_price {
+    font-size: 12px;
+  }
+
   .newsletter-box .sign-up-btn {
     width: 100%;
     text-align: center;
@@ -433,6 +443,10 @@
 
   .materials_sec .materials_sec_box .image_content .product_name {
     font-size: 14px;
+  }
+
+  .materials_sec .materials_sec_box .image_content .product_price {
+    font-size: 12px;
   }
 
   .custom-select {

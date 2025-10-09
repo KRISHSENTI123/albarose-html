@@ -45,7 +45,8 @@
   line-height: 150%;
 }
 
-.care_accordion .accordion-item .accordion-body li, .care_accordion .accordion-item .accordion-body ul {
+.care_accordion .accordion-item .accordion-body li,
+.care_accordion .accordion-item .accordion-body ul {
   font-size: 14px;
   font-weight: 400;
   color: #525252;
@@ -53,10 +54,38 @@
   line-height: 150%;
 }
 
+/* pet ashes */
+
 @media (max-width: 1199px) {
   .features_about_sec .features_row {
     padding: 0px 2.5rem;
   }
+}
+
+@media (max-width: 991px) {
+  .pet-ashes-materials .materials_sec_row {
+    display: flex;
+    white-space: nowrap;
+    overflow-x: auto
+  }
+
+  .pet-ashes-materials .materials_sec_row::-webkit-scrollbar {
+    display: none;
+  }
+
+  .pet-ashes-materials .materials_sec_box {
+    width: 200px;
+    flex: 0 0 200px;
+  }
+
+  .pet-ashes-materials .materials_sec_box .image_box, .pet-ashes-materials .materials_sec_box .image_box img {
+    height: 200px !important;
+  }
+
+  /* .pet-ashes-materials .materials_sec_row .materials_sec_box {
+    width: 200px;
+  } */
+  
 }
 
 @media (max-width: 768px) {
@@ -73,5 +102,11 @@
 
   .features_about_sec img {
     height: 320px;
+  }
+}
+
+@media (max-width: 575px) {
+  .pet_ashes_about_sec .image_box img {
+    height: 300px;
   }
 }
