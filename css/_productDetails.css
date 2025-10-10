@@ -94,6 +94,10 @@
   padding: 0px;
   margin-bottom: 14px;
 }
+.productDetails__left .owl-item:nth-last-of-type(1) .thumbnail-item {
+  margin-bottom: 0;
+}
+
 
 .thumbnail {
   width: 100%;
