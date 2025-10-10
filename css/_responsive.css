@@ -229,7 +229,7 @@
   }
 
   header {
-    height: 65px;
+    height: 55px;
   }
 
   .buyers-canvas-body .info-list li a {
@@ -237,7 +237,7 @@
   }
 
   header .logo img {
-    width: 150px;
+    width: 170px;
   }
 
   .explore_sec .explore h3 {
@@ -469,7 +469,7 @@
 
   .materials_sec .materials_sec_box .image_content .product_price,
   .trending_sec .trending_grid_column .product_price {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .cart_table thead tr th:first-child {
@@ -538,7 +538,7 @@
   }
 
   .materials_sec .materials_sec_box .image_content .product_price {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .footer-grid {
