@@ -82,10 +82,6 @@
   .klarna_features_row .heading p {
     min-height: 110px;
   }
-
-  .installment_sec h3 {
-    font-size: 18px;
-  }
 }
 
 @media (max-width: 767px) {
@@ -114,9 +110,6 @@
 
   .shop_now_grid {
     grid-template-columns: repeat(1, 1fr);
-  }
-  .installment_sec h3 {
-    font-size: 15px;
   }
 }
 

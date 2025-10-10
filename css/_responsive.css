@@ -15,10 +15,10 @@
     display: none;
   }
 
-  .fs_30_heading {
+  /* .fs_30_heading {
     font-size: 26px !important;
     line-height: 150%;
-  }
+  } */
 
   .offers_sec h1 {
     font-size: 1rem;
@@ -208,10 +208,10 @@
     font-size: 20px !important;
   }
 
-  .fs_30_heading {
+  /* .fs_30_heading {
     font-size: 24px !important;
     line-height: 150%;
-  }
+  } */
 
   .craft_sec .image_item_row {
     display: grid;
@@ -221,11 +221,6 @@
 
   .craft_sec .image_item_row img {
     height: 230px;
-  }
-
-  .fs_30_heading {
-    font-size: 20px !important;
-    line-height: 150%;
   }
 
   header {
@@ -375,33 +370,17 @@
   }
 
   .fs_30_heading {
-    font-size: 20px !important;
-    line-height: 150%;
+    line-height: 120%;
   }
 
   .fluid-row {
     margin-right: -20px !important;
     margin-left: -20px !important;
   }
-
-  .text_section_16 {
-    font-size: 12px !important;
-    line-height: 150%;
-  }
-
-  .buyers-canvas-body .description p,
-  .christmas_list p {
-    font-size: 12px;
-  }
-
   .note {
     margin-top: 24px;
     font-size: 14px;
     line-height: 150%;
-  }
-
-  .engraving-canvas-body .engraving_list .grid_list .grid p {
-    font-size: 12px;
   }
 
   .trending_sec .heading h2,
@@ -487,16 +466,6 @@
 
   .cart_table .remove_link {
     font-size: 12px;
-  }
-
-  .why_choose_sec .choose_us_list ul li {
-    font-size: 12px;
-  }
-
-  .privacy_sec p,
-  .terms_sec p,
-  .return_sec p {
-    font-size: 12px !important;
   }
 }
 
