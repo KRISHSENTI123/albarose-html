@@ -496,12 +496,13 @@
 }
 
 .footer-column h4 {
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   padding-bottom: 0.625rem;
   border-bottom: 1px solid #d0d0d0;
   margin-bottom: 0.725rem;
   color: var(--black);
+  font-family: var(--font-cormorant);
 }
 
 .footer-column ul {
