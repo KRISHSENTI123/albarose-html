@@ -505,8 +505,8 @@
 }
 
 .footer-column h4 {
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 24px;
+  font-weight: 500;
   padding-bottom: 0.625rem;
   border-bottom: 1px solid #d0d0d0;
   margin-bottom: 0.725rem;
@@ -540,8 +540,8 @@
 }
 
 .newsletter-box h4 {
-  font-size: 26px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 500;
   margin-bottom: 20px;
   font-family: var(--font-cormorant);
   line-height: 0.9;
