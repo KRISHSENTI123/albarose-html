@@ -68,6 +68,10 @@
     line-height: 150%;
 }
 
+.cart_table tbody tr td .price_details {
+    font-weight: 300;
+}
+
 .cart_table tbody tr td .price_details del{
     color: #757575;
 }
