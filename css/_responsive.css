@@ -254,10 +254,6 @@
     font-size: 0.75rem;
   }
 
-  .banner_sec h3 {
-    font-size: 0.875rem;
-  }
-
   .filter-header {
     flex-wrap: wrap;
   }
@@ -416,11 +412,6 @@
   .newsletter-box h4 {
     font-size: 20px;
   }
-
-  .banner_sec h3 {
-    font-size: 0.75rem;
-  }
-
   .materials_sec .materials_sec_box .image_content {
     padding-left: 0.525rem;
   }

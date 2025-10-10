@@ -53,10 +53,10 @@
 }
 .howItWorks_list li{
   font-family: var(--font-inter);
-  font-weight: 400;
+  font-weight: 300;
   color: var(--black);
   text-align: justify;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 150%;
   text-justify: inter-word;
 }

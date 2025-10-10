@@ -113,26 +113,22 @@ p{
 
 .fs_default {
   font-size: 14px;
+  font-weight: 300;
   line-height: 150%;
 }
 .fs_12 {
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 300;
   line-height: 150%;
 }
 .fs_13 {
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 300;
   line-height: 150%;
 }
 .fs_26 {
   font-size: 26px !important;
   line-height: 150%;
-}
-.fs_30_heading {
-  font-size: 34px !important;
-  line-height: 150%;
-  font-weight: 400;
-  font-style: regular;
-  color: var(--black);
 }
 
 .fs_30_heading {
@@ -146,6 +142,13 @@ p{
   font-size: 14px !important;
   line-height: 150%;
   font-weight: 300 !important;
+  color: var(--black-300);
+}
+
+strong.text_section_16, .text_section_16 strong, b.text_section_16, .text_section_16 b {
+  font-size: 14px !important;
+  line-height: 150%;
+  font-weight: bold !important;
   color: var(--black-300);
 }
 
@@ -327,6 +330,10 @@ button {
 }
 .buyers-canvas-body .buyers_list {
   padding-right: 5px;
+}
+
+.buyers-canvas-body .buyers_list p {
+  font-weight: 300;
 }
 
 .christmas_list p {
