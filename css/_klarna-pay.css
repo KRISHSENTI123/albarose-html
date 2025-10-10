@@ -90,7 +90,7 @@
 
 @media (max-width: 767px) {
   .klarna-faq-sec .heading h2 {
-    font-size: 24px;
+    line-height: 120%;
   }
   .klarna_features_row .heading p {
     min-height: auto;
@@ -121,9 +121,9 @@
 }
 
 @media (max-width: 575px) {
-  .klarna-faq-sec .heading h2 {
+  /* .klarna-faq-sec .heading h2 {
     font-size: 20px;
-  }
+  } */
 
   .klarna-faq-sec .heading p {
     font-size: 12px;

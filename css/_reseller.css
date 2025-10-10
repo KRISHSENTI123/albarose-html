@@ -81,7 +81,10 @@
 }
 
 .contect_sec p, .contect_sec li, .terms_sec p{
-  color: #525252;
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 300 !important;
+  font-family: var(--font-inter);
 }
 
 .privacyList li, .dottedList li{

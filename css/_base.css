@@ -127,7 +127,7 @@ p{
   font-size: 26px !important;
   line-height: 150%;
 }
-.fs_34_heading {
+.fs_30_heading {
   font-size: 34px !important;
   line-height: 150%;
   font-weight: 400;
@@ -143,10 +143,9 @@ p{
 }
 
 .text_section_16 {
-  font-size: 16px !important;
+  font-size: 14px !important;
   line-height: 150%;
-  font-weight: 400;
-  font-style: regular;
+  font-weight: 300 !important;
   color: var(--black-300);
 }
 
