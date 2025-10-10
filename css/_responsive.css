@@ -482,6 +482,12 @@
   .why_choose_sec .choose_us_list ul li {
     font-size: 12px;
   }
+
+  .privacy_sec p,
+  .terms_sec p,
+  .return_sec p {
+    font-size: 12px !important;
+  }
 }
 
 /* ============================================
