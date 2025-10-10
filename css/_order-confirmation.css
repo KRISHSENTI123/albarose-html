@@ -1,0 +1,13 @@
+.order_conf_banner .conf_details h2 strong {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.order_conf_box_sec .conf_box .heading {
+    padding: 8px 15px;
+    background-color: var(--pink-300);
+}
+
+.order_conf_box_sec .conf_box .heading h2 {
+    line-height: 1.1;
+}
