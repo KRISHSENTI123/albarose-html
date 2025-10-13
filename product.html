@@ -146,12 +146,151 @@
                         </a>
                     </div>
                     <ul class="menu d-lg-flex d-none gap-4">
-                        <li><a href="#">Ashes Jewellery</a></li>
+                        <li><a type="button" data-bs-toggle="offcanvas" data-bs-target="#buynowPayLater"
+                                aria-controls="buynowPayLater" type="button" role="button">Ashes Jewellery</a></li>
+                        <!-- canvas -->
+                        <div class="offcanvas right-sidebar-customise metal_glass_sidebar offcanvas-end" tabindex="-1"
+                            id="buynowPayLater" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                                <div class="offcanvas-title font-cormorant" id="offcanvasRightLabel">Buyers Guide</div>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body d-flex buyers-canvas-body py-4">
+                                <!-- <div class="flex-shrink-1 flex-grow-1 overflow-auto scrollbar_custom pe-1">
+                                    <p class="fs_12 fs_12_mobile mb-3">We know that choosing a piece of memorial
+                                        jewellery is a meaningful decision, and we want to make the process as easy as
+                                        possible. That's why we've partnered with Klarna, giving you flexible payment
+                                        options at checkout.</p>
+
+                                    <div class="mb-3">
+                                        <p class="mb-1 fs_12 fs_12_mobile">
+                                            <b>With Klarna, you can:</b>
+                                        </p>
+                                        <ul class="pe-0 ps-3">
+                                            <li class="fs_12 disc-type fs_12_mobile">Pay in 30 days – receive your
+                                                jewellery first, and pay later with no added interest.</li>
+                                            <li class="fs_12 disc-type fs_12_mobile">Pay in 3 instalments – spread the
+                                                cost into three equal payments, taken automatically every 30 days, with
+                                                no fees or interest.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <p class="mb-1 fs_12 fs_12_mobile">
+                                            <b>Benefits of using Klarna:</b>
+                                        </p>
+                                        <ul class="pe-0 ps-3">
+                                            <li class="fs_12 disc-type fs_12_mobile">Instant approval decision at
+                                                checkout.</li>
+                                            <li class="fs_12 disc-type fs_12_mobile">No hidden charges or interest.</li>
+                                            <li class="fs_12 disc-type fs_12_mobile">More flexibility when budgeting for
+                                                your jewellery purchase.</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <p class="mb-1 fs_12 fs_12_mobile">
+                                            <b>How it works:</b>
+                                        </p>
+                                        <ol class="pe-0 ps-3">
+                                            <li class="fs_12 fs_12_mobile">Choose Klarna at checkout.</li>
+                                            <li class="fs_12 fs_12_mobile">Select your preferred payment plan.</li>
+                                            <li class="fs_12 fs_12_mobile">Complete your purchase and Klarna will send
+                                                you reminders when payments are due.</li>
+                                        </ol>
+                                    </div>
+
+                                    <p class="fs_12 fs_12_mobile mb-3">Klarna's payment options are subject to
+                                        individual eligibility checks. For full terms and conditions, please see
+                                        Klarna's website.</p>
+                                </div> -->
+                                <!-- <div class="flex-shrink-1 flex-grow-1 overflow-auto scrollbar_custom pe-1">
+                                    <div class="flex-shrink-1 flex-grow-1 overflow-auto scrollbar_custom pe-1">
+                                        <p class="fs_12 fs_12_mobile mb-3">Every Alba Rose pendant and necklace comes
+                                            with a 17–20 inch adjustable chain, allowing you to select the perfect
+                                            length for your comfort and style.</p>
+
+                                        <div class="mb-3">
+                                            <p class="mb-1 fs_12 fs_12_mobile">
+                                                <b>17" – Petite Fit</b>
+                                            </p>
+                                            <p class="fs_12 fs_12_mobile">Best suited for younger wearers or those with
+                                                petite neck sizes. This length sits just above the collarbone for a
+                                                delicate, close fit.</p>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <p class="mb-1 fs_12 fs_12_mobile">
+                                                <b>18" – Standard Fit</b>
+                                            </p>
+                                            <p class="fs_12 fs_12_mobile">Ideal for average neck sizes, this is the most
+                                                popular length for pendants, resting neatly at or just below the
+                                                collarbone.</p>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <p class="mb-1 fs_12 fs_12_mobile">
+                                                <b>20" – Longer Fit</b>
+                                            </p>
+                                            <p class="fs_12 fs_12_mobile">Designed for a more relaxed style or for those
+                                                with larger neck sizes, this length sits lower on the chest and frames
+                                                open necklines beautifully.</p>
+                                        </div>
+                                        <img src="images/engrave-guide.png" class="w-100" alt="Authenticity image">
+                                    </div>
+                                </div> -->
+                                <div
+                                    class="engraving_list scrollbar_custom pe-1 flex-shrink-1 flex-grow-1 overflow-auto d-flex flex-column gap-3">
+                                    <div class="fs_12 description flex flex-column gap-3 mb-2">
+                                        <p>All of our products are custom made, which means that we can't specify
+                                            exactly how long it will take to produce, but we can give you an rough
+                                            estimate.</p>
+                                        <p>On average it takes 2-3 weeks from when we receive the ashes to complete your
+                                            order.</p>
+                                        <p>Gold items usually take 3-4 weeks due to the extra hallmarking step which is
+                                            required by law for all gold items.</p>
+                                        <p>If there is a special case you'd like us to finish your order by, then please
+                                            get in touch and we'll see if it will be possible.</p>
+                                        <p>We will however keep you updated throughout the process, and you'll receive
+                                            email notifications at the following steps:</p>
+                                    </div>
+                                    <div class="grid_list d-flex flex-column gap-3">
+                                        <div class="grid d-flex w-100 flex-column gap-1">
+                                            <h2 class="fs_30_heading fw-normal font-cormorant">Step 1 - Ashes Received</h2>
+                                            <p class="text_section_16">As soon as the ashes are received at our facility, we'll process them and
+                                                notify you by email of their arrival.</p>
+                                        </div>
+                                        <div class="grid d-flex w-100 flex-column gap-1">
+                                            <h2 class="fs_30_heading fw-normal font-cormorant">Step 2 - Mount Being Made</h2>
+                                            <p class="text_section_16">As soon as the ashes are received at our facility, we'll process them and
+                                                notify you by email of their arrival.</p>
+                                        </div>
+                                        <div class="grid d-flex w-100 flex-column gap-1">
+                                            <h2 class="fs_30_heading fw-normal font-cormorant">Step 3 - Glass Being Made</h2>
+                                            <p class="text_section_16">Whilst the mount is being made, we then organise the glass ashes to be
+                                                produced. Typically it takes 1 - 2 weeks to complete your order from
+                                                this notification.</p>
+                                        </div>
+                                        <div class="grid d-flex w-100 flex-column gap-1">
+                                            <h2 class="fs_30_heading fw-normal font-cormorant">Step 4 - Hallmarking</h2>
+                                            <p class="text_section_16">If your order contains any gold items, we send the finished mount for
+                                                hallmarking at the Birmingham assay office. Typically it takes 3-5 days
+                                                to complete your order from this notification.</p>
+                                        </div>
+                                        <div class="grid d-flex w-100 flex-column gap-1">
+                                            <h2 class="fs_30_heading fw-normal font-cormorant">Step 5 - Ready to Ship</h2>
+                                            <p class="text_section_16">When your order is ready to ship, we notify you with a tracking number
+                                                for next day delivery.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <li><a href="#">How it’s Made</a></li>
                         <li><a href="#">How to Order</a></li>
                         <li><a href="#">About Us</a></li>
                     </ul>
-
                 </div>
                 <div class="d-lg-flex align-items-center d-none gap-2">
                     <div class="profile">
@@ -1348,8 +1487,7 @@
                     </div>
                 </div>
             </div>
-            <div
-                class="d-flex flex-row images_footer py-sm-4 py-3 justify-content-center align-items-center gap-5">
+            <div class="d-flex flex-row images_footer py-sm-4 py-3 justify-content-center align-items-center gap-5">
                 <div>
                     <img src="images/assured.svg" alt="assured" class="img-fluid" />
                 </div>
