@@ -25,9 +25,11 @@
 .features_about_sec .features_row {
   padding: 0px 5rem;
 }
+
 .care_accordion .accordion-item:not(:last-child) {
   border-bottom: 1px solid #a3a3a3;
 }
+
 .care_accordion .accordion-item .accordion-button {
   font-size: 24px;
   font-weight: 400;
@@ -78,6 +80,7 @@
   font-weight: 400;
   font-family: var(--font-cormorant);
 }
+
 .review_sec .review_grid_column .client_content p {
   font-size: 24px;
   line-height: 150%;
@@ -114,6 +117,52 @@
   margin: 0 auto;
 }
 
+/* how to make it */
+.howItsMade_grid {
+  grid-template-columns: 1fr 520px;
+  gap: 30px;
+}
+
+.trending_sec.howItsMade_Slidersec .trending_row {
+  position: static;
+  padding: 0px;
+}
+
+.howItsMade_Slidersec .slide-btn.prev-btn,
+.howItsMade_Slidersec .slide-btn.next-btn {
+  top: 18px;
+}
+
+.howItsMade_Slidersec .slide-btn.prev-btn {
+  right: 40px;
+}
+
+.howItsMade_Slidersec .slide-btn.next-btn {
+  right: 20px;
+}
+
+@media (min-width: 1201px) {
+  .Our12MuranoGlassColours .trending_grid_row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 991px) {
+  .howItsMade_grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .howItsMade_grid .image_box {
+    order: 1;
+  }
+
+  .howItsMade_grid .content {
+    order: 2;
+  }
+}
+
 @media (max-width: 1199px) {
   .features_about_sec .features_row {
     padding: 0px 2.5rem;
@@ -122,6 +171,7 @@
   .review_sec .review_grid_column .client_content p {
     font-size: 20px;
   }
+
   .step_item_row {
     display: grid;
     grid-template-columns: 1fr 450px;
@@ -167,6 +217,7 @@
   .features_about_sec .features_row {
     padding: 0;
   }
+
   /* .care_accordion .accordion-item .accordion-body p {
     font-size: 12px;
   } */

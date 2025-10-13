@@ -215,3 +215,4 @@ input.addEventListener('input', () => {
   applyBtn.disabled = input.value.trim().length === 0;
 });
 applyBtn.disabled = input.value.trim().length === 0;
+

@@ -82,12 +82,14 @@
                                 </ul>
                                 <div class="button_group flex-column gap-2 mt-3 d-flex">
                                     <button class="primary_button w-100 font-inter fw-medium">Chat to us Online</button>
-                                    <button class="primary_button w-100 font-inter fw-medium">Message us on Whatsapp</button>
+                                    <button class="primary_button w-100 font-inter fw-medium">Message us on
+                                        Whatsapp</button>
                                     <button class="primary_button w-100 font-inter fw-medium">Send us an Email</button>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- Christmas Delivery -->
                     <div class="offcanvas right-sidebar-customise metal_glass_sidebar offcanvas-end" tabindex="-1"
                         id="christmasDelivery" aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
@@ -149,6 +151,7 @@
                         <li><a href="#">How to Order</a></li>
                         <li><a href="#">About Us</a></li>
                     </ul>
+
                 </div>
                 <div class="d-lg-flex align-items-center d-none gap-2">
                     <div class="profile">
@@ -244,8 +247,8 @@
                                     <li><a href="#" class="font-inter"><img src="images/favourite.svg" class="pe-1"
                                                 alt="metal" />
                                             Favorites</a></li>
-                                    <li><a href="#" class="font-inter clear_fix"><img src="images/location.svg" class="pe-1"
-                                                alt="metal" /> Find a
+                                    <li><a href="#" class="font-inter clear_fix"><img src="images/location.svg"
+                                                class="pe-1" alt="metal" /> Find a
                                             Store</a></li>
                                 </ul>
                             </div>
@@ -265,11 +268,11 @@
         <div class="albarose_container">
             <div class="heading">
                 <h2 class="fw-regular font-cormorant">Ashes Jewellery</h2>
-                <h3 class="mt-3 fw-light text_section_16">Ashes into Murano Glass, our unique collection of fine ashes jewellery
+                <h3 class="mt-3 fw-light text_section_16">Ashes into Murano Glass, our unique collection of fine ashes
+                    jewellery
                     custom-made with
                     your choice
-                    of metal <br />
-                    and Venetian Murano Glass colour.</h3>
+                    of metal <br />and Murano Glass colour.</h3>
             </div>
             <div class="breadcumb mt-3">
                 / Ashes Jewellery
@@ -280,15 +283,15 @@
         <div class="albarose_container">
             <div class="filter-section">
                 <!-- Filter Header -->
-                <div class="filter-header">
+                <div class="filter-header" id="filterheader">
                     <!-- Filters Dropdown -->
                     <div class="filter-header-items-wrap w-100 justify-content-sm-start justify-content-between">
-                        <div class="filter-item" type="button" data-bs-toggle="offcanvas"
+                        <div class="filter-item d-sm-none d-flex" type="button" data-bs-toggle="offcanvas"
                             data-bs-target="#filtersSidebar" aria-controls="filtersSidebar">
-                            <label>
+                            <label class="cursor-pointer">
                                 Filters
                             </label>
-                            <img src="images/filters.png" />
+                            <img src="images/filter.svg" alt="filter" />
                         </div>
                         <!-- filter sidebar -->
                         <div class="offcanvas right-sidebar-customise filter-sidebar offcanvas-end" tabindex="-1"
@@ -296,7 +299,7 @@
                             <div class="offcanvas-header">
                                 <div class="d-flex align-items-center gap-2">
                                     <div class="offcanvas-title font-cormorant" id="offcanvasRightLabel">Filters</div>
-                                    <img src="images/filters.png" width="18" />
+                                    <img src="images/filter.svg" />
                                 </div>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                                     aria-label="Close"></button>
@@ -412,6 +415,12 @@
                             </div>
                         </div>
                         <!-- filter sidebar -->
+                        <div class="filter-item cursor-auto d-sm-flex d-none">
+                            <label>
+                                Filters
+                            </label>
+                            <img src="images/filter.svg" alt="filter" />
+                        </div>
                         <button class="clear-all-btn d-sm-none d-block p-0 order-3 order-sm-0">Clear All</button>
                         <div class="results-count mt-0 d-sm-none d-block">
                             <a href="#">878 Item(s)</a>
@@ -552,7 +561,7 @@
                                         </li>
                                         <li class="d-flex gap-2 align-items-center">
                                             <img class="img-fluid" src="images/metal-11.png" width="25" />
-                                            <span>Marinite</span>
+                                            <span>Marine</span>
                                         </li>
                                         <li class="d-flex gap-2 align-items-center">
                                             <img class="img-fluid" src="images/metal-12.png" width="25" />
@@ -560,7 +569,7 @@
                                         </li>
                                         <a href="#"
                                             class="d-block mt-3 font-inter w-fit mx-auto text-center text-decoration-underline fs-6 show-all-btn">Show
-                                            All Glasses</a>
+                                            All Colours</a>
                                     </ul>
                                 </div>
                             </div>
@@ -1212,22 +1221,22 @@
                             <button type="submit" class="sign-up-btn">Sign Up</button>
                         </form>
 
-                        <div class="shine-bright">
-                            <div class="d-flex justify-content-between align-items-center gap-3">
-                                <div class="mb-3">
+                        <div class="shine-bright d-lg-block d-flex flex-row gap-2">
+                            <div class="d-flex justify-content-between align-items-center gap-lg-3 gap-2">
+                                <div class="mb-lg-3 mb-0">
                                     <img src="images/Amex.svg" alt="amex" class="img-fluid" />
                                 </div>
-                                <div class="mb-3">
+                                <div class="mb-lg-3 mb-0">
                                     <img src="images/Klarna.svg" alt="klarna" class="img-fluid" />
                                 </div>
-                                <div class="mb-3">
+                                <div class="mb-lg-3 mb-0">
                                     <img src="images/social-2.svg" alt="social" class="img-fluid" />
                                 </div>
-                                <div class=" mb-3 text-end">
+                                <div class=" mb-lg-3 mb-0 text-end">
                                     <img src="images/Visa.svg" alt="visa" class="img-fluid" />
                                 </div>
                             </div>
-                            <div class="d-flex justify-content-between align-items-center gap-3">
+                            <div class="d-flex justify-content-between align-items-center gap-lg-3 gap-2">
                                 <div class="">
                                     <img src="images/Mastercard.svg" alt="mastercard" class="img-fluid" />
                                 </div>
@@ -1340,7 +1349,7 @@
                 </div>
             </div>
             <div
-                class="d-flex flex-sm-row flex-column images_footer py-sm-4 py-3 justify-content-center align-items-center gap-sm-5 gap-4">
+                class="d-flex flex-row images_footer py-sm-4 py-3 justify-content-center align-items-center gap-5">
                 <div>
                     <img src="images/assured.svg" alt="assured" class="img-fluid" />
                 </div>
@@ -1351,7 +1360,6 @@
             <div class="footer-bottom justify-content-center d-lg-flex">
                 <div class="footer-links">
                     <a href="#">Privacy Policy</a>
-                    <a href="#">Accessibility Statement</a>
                     <a href="#">Sitemap</a>
                     <a href="#">Cookie Preferences</a>
                     <a href="#">©Alba Rose</a>

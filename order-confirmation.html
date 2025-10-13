@@ -268,8 +268,15 @@
             <div class="order_conf_banner_grid row">
                 <div class="col-12">
                     <div class="conf_details">
-                        <h2 class="fs_30_heading mb-3 font-cormorant">Order Confirmation <strong
-                                class="font-inter">216645</strong></h2>
+                        <div class="conf_heading d-flex justify-content-between">
+                            <h2 class="fs_30_heading mb-3 font-cormorant">Order Confirmation <strong
+                                    class="font-inter">216645</strong>
+                            </h2>
+                            <div class="text-lg-end d-lg-block d-none conf_date mt-lg-0 mt-2 text-start">
+                                <p class="text_section_16">Order Date: 10/06/25</p>
+                                <p class="text_section_16">Usually Ships Before: 28th October</p>
+                            </div>
+                        </div>
                         <p class="text_section_16">Hello Ryan,</p>
                         <p class="mb-3 text_section_16">Thank you for shopping with us. Your order has been received and
                             an email confirmation has been sent to <a class="text-decoration-underline text-primary"
@@ -282,12 +289,10 @@
                                 class="text-decoration-underline text-primary">ZW3453434345</span></p>
                         <p class="text_section_16">Ashes Return Tracking: <span
                                 class="text-decoration-underline text-primary">ZW3453434345</p>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="text-lg-end conf_date mt-lg-0 mt-2 text-start">
-                        <p class="text_section_16">Order Date: 10/06/25</p>
-                        <p class="text_section_16">Usually Ships Before: 28th October</p>
+                        <div class="text-lg-end d-lg-none d-block conf_date mt-lg-0 mt-2 text-start">
+                            <p class="text_section_16">Order Date: 10/06/25</p>
+                            <p class="text_section_16">Usually Ships Before: 28th October</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -301,9 +306,7 @@
                     <thead>
                         <tr>
                             <th>Your Cart</th>
-                            <th class="text-center">Quantity</th>
-                            <th class="text-center">Price</th>
-                            <th class="text-end">total</th>
+                            <th class="text-end">Price</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -328,18 +331,8 @@
                                 </div>
                             </td>
                             <td>
-                                <div class="price_details align-items-center d-md-flex d-none flex-column">
-                                    <p>3</p>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="price_details align-items-center d-md-flex d-none flex-column">
-                                    <p>£200.00</p>
-                                </div>
-                            </td>
-                            <td>
                                 <div class="price_details align-items-end d-md-flex d-none flex-column">
-                                    <p>£200.00</p>
+                                    <p>£195.00</p>
                                 </div>
                             </td>
 
@@ -358,25 +351,27 @@
                         <div class="heading">
                             <h2 class="fs_30_heading font-cormorant">Delivery Information</h2>
                         </div>
-                        <div class="row my-sm-3 my-2">
-                            <div class="col-6">
-                                <div class="left_part">
-                                    <p class="text_section_16">Billing Address</p>
-                                    <p class="text_section_16">Ryan Edkins</p>
-                                    <p class="text_section_16">35 Victoria Road</p>
-                                    <p class="text_section_16">Leigh-on-sea SS9 1AU</p>
-                                    <p class="text_section_16">United Kingdom</p>
-                                    <p class="text_section_16">Mobile Phone: +44 7811387211</p>
+                        <div class="content px-3">
+                            <div class="row my-sm-3 my-2">
+                                <div class="col-6">
+                                    <div class="left_part d-flex align-items-start gap-2 flex-column">
+                                        <p class="text_section_16">Billing Address</p>
+                                        <p class="text_section_16">Ryan Edkins</p>
+                                        <p class="text_section_16">35 Victoria Road</p>
+                                        <p class="text_section_16">Leigh-on-sea SS9 1AU</p>
+                                        <p class="text_section_16">United Kingdom</p>
+                                        <p class="text_section_16">Mobile Phone: +44 7811387211</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="left_part">
-                                    <p class="text_section_16">Billing Address</p>
-                                    <p class="text_section_16">Ryan Edkins</p>
-                                    <p class="text_section_16">35 Victoria Road</p>
-                                    <p class="text_section_16">Leigh-on-sea SS9 1AU</p>
-                                    <p class="text_section_16">United Kingdom</p>
-                                    <p class="text_section_16">Mobile Phone: +44 7811387211</p>
+                                <div class="col-6">
+                                    <div class="left_part d-flex align-items-start gap-2 flex-column">
+                                        <p class="text_section_16">Billing Address</p>
+                                        <p class="text_section_16">Ryan Edkins</p>
+                                        <p class="text_section_16">35 Victoria Road</p>
+                                        <p class="text_section_16">Leigh-on-sea SS9 1AU</p>
+                                        <p class="text_section_16">United Kingdom</p>
+                                        <p class="text_section_16">Mobile Phone: +44 7811387211</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -387,10 +382,12 @@
                         <div class="heading">
                             <h2 class="fs_30_heading font-cormorant">Payment Method</h2>
                         </div>
-                        <div class="row my-sm-3 my-2">
-                            <div class="col-12">
-                                <div class="left_part">
-                                    <p class="text_section_16">Google Pay</p>
+                        <div class="content px-3">
+                            <div class="row my-sm-3 my-2">
+                                <div class="col-12">
+                                    <div class="left_part d-flex align-items-start gap-2 flex-column">
+                                        <p class="text_section_16">Google Pay</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -399,21 +396,23 @@
                         <div class="heading">
                             <h2 class="fs_30_heading font-cormorant">Billing Summary</h2>
                         </div>
-                        <div class="row my-sm-3 my-2">
-                            <div class="col-6">
-                                <div class="left_part">
-                                    <p class="text_section_16">Items Total</p>
-                                    <p class="text_section_16">Vat</p>
-                                    <p class="text_section_16">Shipping</p>
-                                    <p class="text_section_16"><strong>Total For Your Order</strong></p>
+                        <div class="content px-3">
+                            <div class="row my-sm-3 my-2">
+                                <div class="col-6">
+                                    <div class="left_part d-flex align-items-start gap-2 flex-column">
+                                        <p class="text_section_16">Items Total</p>
+                                        <p class="text_section_16">Vat</p>
+                                        <p class="text_section_16">Shipping</p>
+                                        <p class="text_section_16">Total For Your Order</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="left_part text-end">
-                                    <p class="text_section_16 fw-bold">£150.60</p>
-                                    <p class="text_section_16 fw-bold">$20.00</p>
-                                    <p class="text_section_16 fw-bold">£0.00</p>
-                                    <p class="text_section_16 fw-bold"><strong>£240.00</strong></p>
+                                <div class="col-6">
+                                    <div class="left_part d-flex align-items-end gap-2 flex-column text-end">
+                                        <p class="text_section_16 fw-bold"><strong>£195.00</strong></p>
+                                        <p class="text_section_16 fw-bold"><strong>£20.00</strong></p>
+                                        <p class="text_section_16 fw-bold"><strong>£0.00</strong></p>
+                                        <p class="text_section_16 fw-bold"><strong>£210.00</strong></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
