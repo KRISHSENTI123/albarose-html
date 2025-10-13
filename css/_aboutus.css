@@ -29,7 +29,7 @@
   border-bottom: 1px solid #a3a3a3;
 }
 .care_accordion .accordion-item .accordion-button {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 400;
   font-family: var(--font-cormorant);
   color: var(--black);
@@ -172,7 +172,7 @@
   } */
 
   .care_accordion .accordion-item .accordion-button {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .features_about_sec img {
