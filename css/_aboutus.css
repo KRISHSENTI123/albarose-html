@@ -29,7 +29,7 @@
   border-bottom: 1px solid #a3a3a3;
 }
 .care_accordion .accordion-item .accordion-button {
-  font-size: 1.25rem;
+  font-size: 24px;
   font-weight: 400;
   font-family: var(--font-cormorant);
   color: var(--black);
@@ -39,8 +39,8 @@
 
 .care_accordion .accordion-item .accordion-body p {
   font-size: 14px;
-  font-weight: 400;
-  color: #525252;
+  font-weight: 300;
+  color: #2e2e2e;
   padding-bottom: 0.525rem;
   line-height: 150%;
 }
@@ -48,8 +48,8 @@
 .care_accordion .accordion-item .accordion-body li,
 .care_accordion .accordion-item .accordion-body ul {
   font-size: 14px;
-  font-weight: 400;
-  color: #525252;
+  font-weight: 300;
+  color: #2e2e2e;
   padding-bottom: 0rem;
   line-height: 150%;
 }
@@ -167,12 +167,12 @@
   .features_about_sec .features_row {
     padding: 0;
   }
-  .care_accordion .accordion-item .accordion-body p {
+  /* .care_accordion .accordion-item .accordion-body p {
     font-size: 12px;
-  }
+  } */
 
   .care_accordion .accordion-item .accordion-button {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .features_about_sec img {

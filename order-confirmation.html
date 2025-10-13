@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Returns</title>
+    <title>order-confirmation</title>
     <link rel="icon" type="image/x-icon" href="images/Favicon-Icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -124,7 +124,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="guide_link d-flex gap-2">
+                <div class="guide_link d-flex gap-2-5">
                     <a href="#">
                         <img src="images/facebook.svg" alt="phone" />
                     </a>
@@ -151,7 +151,7 @@
                         <li><a href="#">About Us</a></li>
                     </ul>
                 </div>
-                <div class="d-lg-flex align-items-center d-none gap-1">
+                <div class="d-lg-flex align-items-center d-none gap-2">
                     <div class="profile">
                         <img src="images/profile.svg" alt="profile">
                     </div>
@@ -162,7 +162,7 @@
                         <img src="images/bag.svg" alt="cart">
                     </div>
                 </div>
-                <div class="d-lg-none d-flex align-items-center gap-2">
+                <div class="d-lg-none d-flex align-items-center gap-2-5">
                     <div class="cart">
                         <img src="images/bag.svg" alt="cart">
                     </div>
@@ -182,6 +182,11 @@
                         </div>
                         <div class="offcanvas-body d-flex flex-column gap-3 py-4">
                             <div class="ring-listing pe-1 flex-shrink-1 flex-grow-1 overflow-auto scrollbar_custom">
+                                <ul class="ring-item-list pb-4 d-flex flex-column gap-3">
+                                    <li><a href="#" class="font-cormorant">How It’s Made</a></li>
+                                    <li><a href="#" class="font-cormorant">How to Order</a></li>
+                                    <li><a href="#" class="font-cormorant">About Us</a></li>
+                                </ul>
                                 <div class="ring-item-row">
                                     <div class="ring-item">
                                         <a href="#">Ladies Rings</a>
@@ -233,12 +238,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <ul class="ring-item-list d-flex flex-column gap-3 mt-4">
-                                    <li><a href="#" class="font-cormorant">How It’s Made</a></li>
-                                    <li><a href="#" class="font-cormorant">How to Order</a></li>
-                                    <li><a href="#" class="font-cormorant">About Us</a></li>
-                                </ul>
-                                <ul class="features-list d-flex flex-column gap-3 mt-4">
+                                <ul class="features-list border-top pt-3 d-flex flex-column gap-3 mt-4">
                                     <li><a href="#" class="font-inter"><img src="images/profile-footer.svg" class="pe-1"
                                                 alt="metal" /> My
                                             Account</a></li>
@@ -256,71 +256,169 @@
             </div>
         </div>
     </header>
-    <!-- offers_sec -->
-    <div class="offers_sec text-center">
+    <!-- mobile sidebar -->
+    <section class="offers_sec text-center">
         <div class="albarose_container">
             <h1 class="text-center offers_text">Over 1000 5 Star Reviews and Counting!</h1>
         </div>
-    </div>
-    <section class="banner_sec py-3">
+    </section>
+
+    <section class="order_conf_banner pt-4">
         <div class="albarose_container">
-            <div class="heading">
-                <h2 class="fs_34_heading  fw-medium font-cormorant">Return & Refund Policy</h2>
-                <h3 class="text_section_16 mt-3 fw-normal mb-3">At Alba Rose Ashes, we know how meaningful each piece of cremation jewellery is. 
-                    Every item is custom-made with care, using the ashes you've entrusted to us. Because of this personalisation,
-                     we're only able to accept returns or offer refunds under specific circumstances.
-                </h3>
-                
+            <div class="order_conf_banner_grid row">
+                <div class="col-12">
+                    <div class="conf_details">
+                        <h2 class="fs_30_heading mb-3 font-cormorant">Order Confirmation <strong
+                                class="font-inter">216645</strong></h2>
+                        <p class="text_section_16">Hello Ryan,</p>
+                        <p class="mb-3 text_section_16">Thank you for shopping with us. Your order has been received and
+                            an email confirmation has been sent to <a class="text-decoration-underline text-primary"
+                                href="mailto:ryanedkins@gmail.com">ryanedkins@gmail.com</a>. </p>
+                        <p class="text_section_16 mb-3"><strong>Order Status: Shipped <span
+                                    class="text-decoration-underline fw-normal text-primary">ZZW3453434345</span></strong>
+                        </p>
+                        <p class="text_section_16">Ashes Status: Received 12/06/25</p>
+                        <p class="text_section_16">Ashes Kit Tracking: <span
+                                class="text-decoration-underline text-primary">ZW3453434345</span></p>
+                        <p class="text_section_16">Ashes Return Tracking: <span
+                                class="text-decoration-underline text-primary">ZW3453434345</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="text-lg-end conf_date mt-lg-0 mt-2 text-start">
+                        <p class="text_section_16">Order Date: 10/06/25</p>
+                        <p class="text_section_16">Usually Ships Before: 28th October</p>
+                    </div>
+                </div>
             </div>
-            <!-- <div class="breadcumb mt-3">
-                /  Privacy Policy
-            </div> -->
         </div>
     </section>
 
-    <section class="privacy_sec return_sec">
+    <section class="order_conf_table_section pt-4">
         <div class="albarose_container">
-            <div class="contect_sec mt-0 mb-5">
-                <h2 class="fs_34_heading fw-medium font-cormorant mb-2">Returns</h2>
-                <p>As each piece is uniquely created for you, we can only accept returns if:</p>
-                <ul class="dottedList mt-2">
-                    <li>The jewellery does not match your order (e.g. incorrect design, engraving, or glass colour), or</li>
-                    <li>The jewellery has a manufacturing fault or quality issue</li>
-                    
-                </ul>
-                <p class="my-3">If you believe your item meets one of these criteria, please contact us within 14 days of receiving your order</p>
+            <div class="cart_item">
+                <table class="cart_table order_conf_table table">
+                    <thead>
+                        <tr>
+                            <th>Your Cart</th>
+                            <th class="text-center">Quantity</th>
+                            <th class="text-center">Price</th>
+                            <th class="text-end">total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="product d-flex gap-sm-3 gap-2 align-items-start">
+                                    <div class="product_image">
+                                        <img src="images/ring-1.png" alt="ring" />
+                                    </div>
+                                    <div class="product_details flex-shrink-1 flex-grow-1">
+                                        <p class="font-cormorant">Tribute Ring </p>
+                                        <p class="font-cormorant">Sapphire Murano Glass</p>
+                                        <p>Metal: 9ct White Gold</p>
+                                        <p>Ring Size: I’m Unsure, send a sizing tool <span
+                                                class="text-primary cursor-pointer text-decoration-underline">Confirm
+                                                Your Ring Size</span></p>
+                                        <p>Engraving: Always & Forever</p>
+                                        <div class="d-flex flex-row align-items-center justify-content-between">
+                                            <p class="text-primary fw-medium">20% Off</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="price_details align-items-center d-md-flex d-none flex-column">
+                                    <p>3</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="price_details align-items-center d-md-flex d-none flex-column">
+                                    <p>£200.00</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="price_details align-items-end d-md-flex d-none flex-column">
+                                    <p>£200.00</p>
+                                </div>
+                            </td>
 
-                <p class="mt-3">You can reach our customer care team at:</p>
-                <ul class="dottedList mt-2">
-                    <li>
-                        <a class="text_pink text_underline" href="" title="support@albaroseashes.co.uk">support@albaroseashes.co.uk</a>
-                    </li>
-                    <li>
-                        <a class="text_pink text_underline" href="" title="01702 837012">01702 837012</a>
-                    </li>
-                </ul>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
 
-                <p class="mt-3">Please include:</p>
-                <ul class="dottedList mt-2">
-                    <li>Your order number</li>
-                    <li>A description of the issue</li>
-                    <li>Clear photographs (if applicable)</li>
-                    <li>Once we have assessed the issue, we will arrange for a repair, replacement, or return at no cost to you, where applicable.</li>
-                </ul>
-
-                <h2 class="fs_34_heading fw-medium font-cormorant mt-4 mb-2">Cancellations & Refunds</h2>
-                <p class="my-2">If you need to cancel your order, please contact us as soon as possible.</p>
-                <p class="mt-3">We can offer a full refund only if:</p>
-                <ul class="dottedList mt-2">
-                    <li>Your cancellation request is made before any work has begun on your jewellery, or</li>
-                    <li>We have not yet received your ashes.</li>
-                </ul>
-                <p class="mt-3">Due to the personalised nature of our products, once production has started or ashes have been received, 
-                    we're unable to offer a refund—even if the order is later cancelled.</p>
-
-                <h2 class="fs_34_heading fw-medium font-cormorant mt-4 mb-2">We're Here to Help</h2>
-                <p>We're committed to creating something truly special to honour your loved one. If you have any concerns or questions about your order, please don't hesitate to get in touch.</p>
-
+    <section class="order_conf_box_sec py-sm-5 py-3">
+        <div class="albarose_container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="conf_box mb-3">
+                        <div class="heading">
+                            <h2 class="fs_30_heading font-cormorant">Delivery Information</h2>
+                        </div>
+                        <div class="row my-sm-3 my-2">
+                            <div class="col-6">
+                                <div class="left_part">
+                                    <p class="text_section_16">Billing Address</p>
+                                    <p class="text_section_16">Ryan Edkins</p>
+                                    <p class="text_section_16">35 Victoria Road</p>
+                                    <p class="text_section_16">Leigh-on-sea SS9 1AU</p>
+                                    <p class="text_section_16">United Kingdom</p>
+                                    <p class="text_section_16">Mobile Phone: +44 7811387211</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="left_part">
+                                    <p class="text_section_16">Billing Address</p>
+                                    <p class="text_section_16">Ryan Edkins</p>
+                                    <p class="text_section_16">35 Victoria Road</p>
+                                    <p class="text_section_16">Leigh-on-sea SS9 1AU</p>
+                                    <p class="text_section_16">United Kingdom</p>
+                                    <p class="text_section_16">Mobile Phone: +44 7811387211</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="conf_box mb-sm-5 mb-3">
+                        <div class="heading">
+                            <h2 class="fs_30_heading font-cormorant">Payment Method</h2>
+                        </div>
+                        <div class="row my-sm-3 my-2">
+                            <div class="col-12">
+                                <div class="left_part">
+                                    <p class="text_section_16">Google Pay</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conf_box">
+                        <div class="heading">
+                            <h2 class="fs_30_heading font-cormorant">Billing Summary</h2>
+                        </div>
+                        <div class="row my-sm-3 my-2">
+                            <div class="col-6">
+                                <div class="left_part">
+                                    <p class="text_section_16">Items Total</p>
+                                    <p class="text_section_16">Vat</p>
+                                    <p class="text_section_16">Shipping</p>
+                                    <p class="text_section_16"><strong>Total For Your Order</strong></p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="left_part text-end">
+                                    <p class="text_section_16 fw-bold">£150.60</p>
+                                    <p class="text_section_16 fw-bold">$20.00</p>
+                                    <p class="text_section_16 fw-bold">£0.00</p>
+                                    <p class="text_section_16 fw-bold"><strong>£240.00</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

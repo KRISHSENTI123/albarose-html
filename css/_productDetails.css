@@ -94,6 +94,10 @@
   padding: 0px;
   margin-bottom: 14px;
 }
+.productDetails__left .owl-item:nth-last-of-type(1) .thumbnail-item {
+  margin-bottom: 0;
+}
+
 
 .thumbnail {
   width: 100%;
@@ -611,10 +615,11 @@
 }
 
 .description {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 150%;
   color: var(--black);
   margin-bottom: 32px;
+  font-weight: 300;
 }
 
 .product-specs {
@@ -634,7 +639,7 @@
 }
 
 .spec-label {
-  font-weight: 500;
+  font-weight: 300;
   color: var(--black);
   font-size: 14px;
 }
@@ -642,12 +647,20 @@
 .spec-value {
   color: var(--black);
   font-size: 14px;
+  font-weight: 300;
 }
 
 .note {
   margin-top: 24px;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 300;
   line-height: 1.5;
+}
+
+.note p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 150%;
 }
 
 .reviews-placeholder {
@@ -658,7 +671,7 @@
 
 
 .engraving-canvas-body .engraving_list .description p {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 150%;
   color: #000000;
   font-family: var(--font-inter);
@@ -674,7 +687,7 @@
 }
 
 .engraving-canvas-body .engraving_list .grid_list .grid p {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 150%;
   color: var(--black);
   font-family: var(--font-inter);

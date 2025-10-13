@@ -8,7 +8,7 @@
 }
 
 .offers_sec h1 {
-  color: #4B4B4B;
+  color: #4b4b4b;
   font-family: var(--font-cormorant);
   font-weight: 400;
   font-size: 16px;
@@ -17,6 +17,13 @@
 /* ============================================
    BANNER SECTION
    ============================================ */
+
+.banner_sec h2 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--black);
+}   
 .banner_sec .breadcumb {
   font-size: 14px;
   color: var(--gray-600);
@@ -26,9 +33,9 @@
 }
 
 .banner_sec h3 {
-  font-size: 1rem;
+  font-size: 14px;
   color: var(--black-300);
-  font-weight: 400;
+  font-weight: 300;
   line-height: 150%;
   font-family: var(--font-inter);
 }
@@ -474,9 +481,11 @@
   padding: 5px 13px;
   border-radius: 8px;
   text-align: center;
+  font-size: 14px;
+  font-weight: 300;
 }
-.offers_text{
-  color: #4B4B4B;
+.offers_text {
+  color: #2e2e2e;
   font-size: 14px;
 }
 
@@ -496,12 +505,13 @@
 }
 
 .footer-column h4 {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 500;
   padding-bottom: 0.625rem;
   border-bottom: 1px solid #d0d0d0;
   margin-bottom: 0.725rem;
   color: var(--black);
+  font-family: var(--font-cormorant);
 }
 
 .footer-column ul {
@@ -518,7 +528,7 @@
   font-size: 13px;
   color: var(--footer-link-color);
   line-height: 150%;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .footer-column ul li a:hover {
@@ -530,8 +540,8 @@
 }
 
 .newsletter-box h4 {
-  font-size: 26px;
-  font-weight: 400;
+  font-size: 24px;
+  font-weight: 500;
   margin-bottom: 20px;
   font-family: var(--font-cormorant);
   line-height: 0.9;
@@ -544,7 +554,7 @@
 }
 
 .newsletter-box .form-control {
-  border: 1px solid #A3A3A3;
+  border: 1px solid #a3a3a3;
   padding: 10px 15px;
   font-size: 14px;
   border-radius: 4px;
@@ -560,8 +570,9 @@
 }
 
 .newsletter-box .terms-text {
-  font-size: 16px;
+  font-size: 14px;
   color: var(--black);
+  font-weight: 300 !important;
   line-height: 1.5;
   margin: 0;
 }
@@ -590,7 +601,8 @@
   border-top: 1px solid #e0e0e0;
 }
 
-.shine-bright h5, .mobile-shine-bright h3,
+.shine-bright h5,
+.mobile-shine-bright h3,
 .socialhdn {
   font-size: 16px;
   font-weight: 600;
@@ -901,6 +913,21 @@ footer .accordion-body ul li a:hover {
   color: var(--dark-pink);
 }
 .explore_sec .explore h3 {
-  font-size: 25px;
+  font-size: 30px;
+  font-family: var(--font-cormorant);
+  font-weight: 400;
   color: var(--black);
+}
+
+.related-products h3 {
+  font-size: 30px;
+  font-family: var(--font-cormorant);
+  font-weight: 400;
+  color: var(--black);
+}
+
+.explore_sec .explore p {
+  font-size: 14px;
+  color: var(--black);
+  font-weight: 300;
 }

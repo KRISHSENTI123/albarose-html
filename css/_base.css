@@ -13,9 +13,9 @@
   --footer-link-color: #4b4b4b;
   --white: #fff;
   --dark-pink: #b56899;
+  --pink-300: #F8F0F5;
   /* Spacing */
   --space-1: 0.25rem;
-
   /* Fonts */
   --font-inter: "Inter", sans-serif;
   --font-cormorant: "Cormorant", serif;
@@ -100,6 +100,9 @@ p{
   font-weight: 400;
 }
 
+.gap-2-5 {
+  gap: 12px !important;
+}
 .gap-6 {
   gap: 4rem !important;
 }
@@ -110,41 +113,42 @@ p{
 
 .fs_default {
   font-size: 14px;
+  font-weight: 300;
   line-height: 150%;
 }
 .fs_12 {
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 300;
   line-height: 150%;
 }
 .fs_13 {
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 300;
   line-height: 150%;
 }
 .fs_26 {
   font-size: 26px !important;
   line-height: 150%;
 }
-.fs_34_heading {
-  font-size: 34px !important;
-  line-height: 150%;
-  font-weight: 400;
-  font-style: regular;
-  color: var(--black);
-}
 
 .fs_30_heading {
   font-size: 30px !important;
   line-height: 150%;
   font-weight: 400;
-  font-style: regular;
   color: var(--black);
 }
 
 .text_section_16 {
-  font-size: 16px !important;
+  font-size: 14px !important;
   line-height: 150%;
-  font-weight: 400;
-  font-style: regular;
+  font-weight: 300 !important;
+  color: var(--black-300);
+}
+
+strong.text_section_16, .text_section_16 strong, b.text_section_16, .text_section_16 b {
+  font-size: 14px !important;
+  line-height: 150%;
+  font-weight: bold !important;
   color: var(--black-300);
 }
 
@@ -158,6 +162,10 @@ p{
 
 .disc-type {
   list-style-type: disc;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 button {
@@ -324,6 +332,10 @@ button {
   padding-right: 5px;
 }
 
+.buyers-canvas-body .buyers_list p {
+  font-weight: 300;
+}
+
 .christmas_list p {
   font-size: 14px;
   color: var(--black);
@@ -358,13 +370,9 @@ header.fixed {
 }
 
 .header-off-canvas .offcanvas-header {
-  border-bottom: none !important;
   padding: 15px 0;
 }
 
-.header-off-canvas .offcanvas-body {
-  padding-top: 5px !important;
-}
 
 .header-off-canvas .ring-item-row {
   display: grid;
@@ -397,10 +405,6 @@ header.fixed {
   height: 100px;
 }
 
-.header-off-canvas .ring-item-list {
-  padding-bottom: 40px;
-  border-bottom: 1px solid #d0d0d0;
-}
 
 .header-off-canvas .ring-item-list li a {
   font-size: 18px;

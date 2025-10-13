@@ -1,0 +1,31 @@
+.order_conf_banner .conf_details h2 strong {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.order_conf_box_sec .conf_box .heading {
+    padding: 8px 15px;
+    background-color: var(--pink-300);
+}
+
+.order_conf_box_sec .conf_box .heading h2 {
+    line-height: 1.1;
+}
+.order_conf_table thead tr th {
+    padding: 0.75rem 1rem;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--black);
+    background-color: var(--pink-300);
+    font-family: var(--font-cormorant);
+    border-bottom: none !important;
+}
+
+.order_conf_table thead tr th:first-child {
+    font-size: 30px;
+    padding-left: 1rem !important;
+}
+
+.order_conf_table thead tr th:last-child {
+  padding-right: 1rem !important;
+}

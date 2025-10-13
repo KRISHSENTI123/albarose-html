@@ -15,10 +15,10 @@
     display: none;
   }
 
-  .fs_34_heading {
+  /* .fs_30_heading {
     font-size: 26px !important;
     line-height: 150%;
-  }
+  } */
 
   .offers_sec h1 {
     font-size: 1rem;
@@ -208,10 +208,10 @@
     font-size: 20px !important;
   }
 
-  .fs_30_heading {
-    font-size: 26px !important;
+  /* .fs_30_heading {
+    font-size: 24px !important;
     line-height: 150%;
-  }
+  } */
 
   .craft_sec .image_item_row {
     display: grid;
@@ -223,13 +223,8 @@
     height: 230px;
   }
 
-  .fs_34_heading {
-    font-size: 20px !important;
-    line-height: 150%;
-  }
-
   header {
-    height: 65px;
+    height: 55px;
   }
 
   .buyers-canvas-body .info-list li a {
@@ -237,7 +232,7 @@
   }
 
   header .logo img {
-    width: 130px;
+    width: 170px;
   }
 
   .explore_sec .explore h3 {
@@ -252,10 +247,6 @@
 
   .sub-header .contacts_link a {
     font-size: 0.75rem;
-  }
-
-  .banner_sec h3 {
-    font-size: 0.875rem;
   }
 
   .filter-header {
@@ -354,6 +345,20 @@
   .why_choose_sec .choose_us_list ul li {
     font-size: 14px;
   }
+  .custom-select {
+    flex: 1;
+  }
+
+  .custom-select button.main-button {
+    min-width: inherit;
+    padding: 10px 20px 10px 10px;
+    font-size: 11px;
+    width: 100%;
+  }
+
+  .custom-select button.main-button .arrow-icon {
+    right: 10px;
+  }
 }
 
 /* ============================================
@@ -365,33 +370,17 @@
   }
 
   .fs_30_heading {
-    font-size: 22px !important;
-    line-height: 150%;
+    line-height: 120%;
   }
 
   .fluid-row {
     margin-right: -20px !important;
     margin-left: -20px !important;
   }
-
-  .text_section_16 {
-    font-size: 12px !important;
-    line-height: 150%;
-  }
-
-  .buyers-canvas-body .description p,
-  .christmas_list p {
-    font-size: 12px;
-  }
-
   .note {
     margin-top: 24px;
     font-size: 14px;
     line-height: 150%;
-  }
-
-  .engraving-canvas-body .engraving_list .grid_list .grid p {
-    font-size: 12px;
   }
 
   .trending_sec .heading h2,
@@ -402,11 +391,6 @@
   .newsletter-box h4 {
     font-size: 20px;
   }
-
-  .banner_sec h3 {
-    font-size: 0.75rem;
-  }
-
   .materials_sec .materials_sec_box .image_content {
     padding-left: 0.525rem;
   }
@@ -455,11 +439,16 @@
 
   .materials_sec .materials_sec_box .image_content .product_price,
   .trending_sec .trending_grid_column .product_price {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .cart_table thead tr th:first-child {
     font-size: 20px;
+  }
+
+  .order_conf_banner .conf_details h2 strong {
+    font-size: 18px;
+    font-weight: 600;
   }
 
   .newsletter-box .sign-up-btn {
@@ -476,10 +465,6 @@
   }
 
   .cart_table .remove_link {
-    font-size: 12px;
-  }
-
-  .why_choose_sec .choose_us_list ul li {
     font-size: 12px;
   }
 }
@@ -513,22 +498,7 @@
   }
 
   .materials_sec .materials_sec_box .image_content .product_price {
-    font-size: 12px;
-  }
-
-  .custom-select {
-    flex: 1;
-  }
-
-  .custom-select button.main-button {
-    min-width: inherit;
-    padding: 10px 20px 10px 10px;
-    font-size: 11px;
-    width: 100%;
-  }
-
-  .custom-select button.main-button .arrow-icon {
-    right: 10px;
+    font-size: 14px;
   }
 
   .footer-grid {
