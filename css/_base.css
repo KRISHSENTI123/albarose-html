@@ -278,10 +278,22 @@ button {
   padding-bottom: 7px;
 }
 
-.sub-header .contacts_link {
+.sub-header .contacts_link > li a {
   font-family: var(--font-cormorant);
 }
-
+.offcanvas .back-to-buyers {
+  padding: 0;
+  cursor: pointer;
+  color: #000000;
+  border: none;
+  line-height: 1;
+  font-size: 20px;
+  padding: 5px;
+  display: block;
+  width: fit-content;
+  background-color: transparent;
+}
+ 
 .sub-header .contacts_link ul.sub-menu li {
   font-size: 0.875rem;
   padding: 0rem 0.425rem;

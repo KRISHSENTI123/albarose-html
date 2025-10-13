@@ -33,59 +33,551 @@
                                 data-bs-target="#christmasDelivery" aria-controls="christmasDelivery">Christmas
                                 Delivery</a></li>
                     </ul>
+
+                    <!-- main buyers guide -->
                     <div class="offcanvas right-sidebar-customise metal_glass_sidebar offcanvas-end" tabindex="-1"
                         id="buyersGuide" aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
-                            <div class="offcanvas-title font-cormorant" id="offcanvasRightLabel">Buyers Guide</div>
+                            <div class="offcanvas-title font-cormorant" id="offcanvasRightLabel">
+                                Buyers Guide
+                            </div>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body d-flex buyers-canvas-body py-4">
                             <div
                                 class="d-flex w-100 buyers_list overflow-auto flex-column gap-3 flex-grow-1 flex-shrink-1 scrollbar_custom">
-                                <div class="description mb-0 ">
-                                    <p>This easy to navigate guide has been designed to help answer any questions you
-                                        may
-                                        have about our products and services.</p>
-                                    <p class="mt-3">If you still have questions, feel free to contact our customer
-                                        service
-                                        team using the chat button in the bottom right of the screen, and we’ll get back
-                                        to
-                                        you as soon as we are able.</p>
+                                <div class="description mb-0">
+                                    <p>
+                                        This easy to navigate guide has been designed to help
+                                        answer any questions you may have about our products and
+                                        services.
+                                    </p>
+                                    <p class="mt-3">
+                                        If you still have questions, feel free to contact our
+                                        customer service team using the chat button in the bottom
+                                        right of the screen, and we'll get back to you as soon as
+                                        we are able.
+                                    </p>
                                 </div>
                                 <ul class="menu info-list flex-column d-flex">
-                                    <li><a href="#"><span>How to Order</span> <i class="far fa-angle-right"></i></a>
+                                    <li>
+                                        <a href="#" class="nested-offcanvas-trigger" data-target="howToOrder"><span>How
+                                                to Order</span>
+                                            <i class="far fa-angle-right"></i>
+                                        </a>
                                     </li>
-                                    <li><a href="#"><span>Buy Now Pay Later</span> <i
-                                                class="far fa-angle-right"></i></a></li>
-                                    <li><a href="#"><span>Murano Glass Gemstones</span> <i
-                                                class="far fa-angle-right"></i></a></li>
-                                    <li><a href="#"><span>Precious Metals</span> <i class="far fa-angle-right"></i></a>
+                                    <li>
+                                        <a href="#" class="nested-offcanvas-trigger"
+                                            data-target="buyNowPayLater"><span>Buy Now Pay Later</span>
+                                            <i class="far fa-angle-right"></i>
+                                        </a>
                                     </li>
-                                    <li><a href="#"><span>Measure Your Finger Size</span> <i
-                                                class="far fa-angle-right"></i></a></li>
-                                    <li><a href="#"><span>Personalised Engraving</span> <i
-                                                class="far fa-angle-right"></i></a></li>
-                                    <li><a href="#"><span>Production Times</span> <i class="far fa-angle-right"></i></a>
+                                    <li>
+                                        <a href="#" class="nested-offcanvas-trigger"
+                                            data-target="muranoGlass"><span>Murano Glass Gemstones</span>
+                                            <i class="far fa-angle-right"></i>
+                                        </a>
                                     </li>
-                                    <li><a href="#"><span>Adjustable Chains</span> <i
-                                                class="far fa-angle-right"></i></a></li>
-                                    <li><a href="#"><span>3 Year Warranty</span> <i class="far fa-angle-right"></i></a>
+                                    <li>
+                                        <a href="#" class="nested-offcanvas-trigger" data-target="freeReturns">
+                                            <span>Precious Metals</span>
+                                            <i class="far fa-angle-right"></i>
+                                        </a>
                                     </li>
-                                    <li><a href="#"><span>Free Shipping</span> <i class="far fa-angle-right"></i></a>
+                                    <li>
+                                        <a href="#" class="nested-offcanvas-trigger" data-target="freeReturns">
+                                            <span>Measure Your Finger Size</span>
+                                            <i class="far fa-angle-right"></i>
+                                        </a>
                                     </li>
-                                    <li><a href="#"><span>Authenticity Certificate</span> <i
-                                                class="far fa-angle-right"></i></a></li>
-                                    <li><a href="#"><span>Gift Packaging</span> <i class="far fa-angle-right"></i></a>
+                                    <li>
+                                        <a href="#" class="nested-offcanvas-trigger" data-target="freeReturns">
+                                            <span>Personalised Engraving</span>
+                                            <i class="far fa-angle-right"></i>
+                                        </a>
                                     </li>
-                                    <li><a href="#"><span>Free Returns</span></a></li>
+                                    <li>
+                                        <a href="#"><span>Production Times</span>
+                                            <i class="far fa-angle-right"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><span>Adjustable Chains</span>
+                                            <i class="far fa-angle-right"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="nested-offcanvas-trigger" data-target="3yearWarranty">
+                                            <span>3 Year Warranty</span>
+                                            <i class="far fa-angle-right"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="nested-offcanvas-trigger" data-target="freeshipping">
+                                            <span>Free Shipping</span>
+                                            <i class="far fa-angle-right"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="nested-offcanvas-trigger"
+                                            data-target="authenticityCertificate">
+                                            <span>Authenticity Certificate</span>
+                                            <i class="far fa-angle-right"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="nested-offcanvas-trigger"
+                                            data-target="giftPackaging"><span>Gift Packaging</span>
+                                            <i class="far fa-angle-right"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="nested-offcanvas-trigger" data-target="freeReturns">
+                                            <span>Free Returns</span>
+                                            <i class="far fa-angle-right"></i>
+                                        </a>
+                                    </li>
                                 </ul>
                                 <div class="button_group flex-column gap-2 mt-3 d-flex">
-                                    <button class="primary_button w-100 font-inter fw-medium">Chat to us Online</button>
-                                    <button class="primary_button w-100 font-inter fw-medium">Message us on
-                                        Whatsapp</button>
-                                    <button class="primary_button w-100 font-inter fw-medium">Send us an Email</button>
+                                    <button class="primary_button w-100 font-inter fw-medium">
+                                        Chat to us Online
+                                    </button>
+                                    <button class="primary_button w-100 font-inter fw-medium">
+                                        Message us on Whatsapp
+                                    </button>
+                                    <button class="primary_button w-100 font-inter fw-medium">
+                                        Send us an Email
+                                    </button>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- how to order -->
+                    <div class="offcanvas right-sidebar-customise metal_glass_sidebar offcanvas-end" tabindex="-1"
+                        id="howToOrder">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title font-cormorant" id="offcanvasRightLabel">
+                                How to Order
+                            </div>
+                            <button type="button" class="back-to-buyers" aria-label="back to buyers guide">
+                                <i class="far fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="offcanvas-body engraving-canvas-body d-flex flex-column gap-3 py-4">
+                            <div class="flex-shrink-1 flex-grow-1 overflow-auto scrollbar_custom pe-1">
+                                <p class="fs_12 fs_12_mobile mb-3">
+                                    We've made the process of ordering your Alba Rose ashes
+                                    jewellery simple, secure, and filled with care at every
+                                    stage.
+                                </p>
+
+                                <p class="fs_12 fs_12_mobile">
+                                    <b>Step 1: Choose Your Jewellery</b>
+                                </p>
+                                <p class="fs_12 fs_12_mobile mb-3">
+                                    Explore our collection of rings, pendants, bracelets,
+                                    earrings and charms. Every piece can be personalised with
+                                    your choice of Murano glass colour and precious metal,
+                                    creating something truly special.
+                                </p>
+
+                                <p class="fs_12 fs_12_mobile">
+                                    <b>Step 2: Place Your Order</b>
+                                </p>
+                                <p class="fs_12 fs_12_mobile mb-3">
+                                    Once you've chosen your design, place your order securely
+                                    through our website. If you prefer, you can place your order
+                                    with your funeral director or crematorium.
+                                </p>
+
+                                <p class="fs_12 fs_12_mobile">
+                                    <b>Step 3: Receive Your Ashes Collection Kit</b>
+                                </p>
+                                <p class="fs_12 fs_12_mobile mb-3">
+                                    We'll send you a free collection kit with everything you
+                                    need to securely send a small token of ashes to us.
+                                </p>
+
+                                <div class="mb-3">
+                                    <p class="mb-1 fs_12 fs_12_mobile">Inside you'll find:</p>
+                                    <ul class="ps-3 pe-0">
+                                        <li class="fs_12 disc-type fs_12_mobile">
+                                            An order form with clear instructions
+                                        </li>
+                                        <li class="fs_12 disc-type fs_12_mobile">
+                                            A secure foil ashes pouch and spoon
+                                        </li>
+                                        <li class="fs_12 disc-type fs_12_mobile">
+                                            A prepaid tracked return envelope
+                                        </li>
+                                        <li class="fs_12 disc-type fs_12_mobile">
+                                            A finger sizing tool
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p class="fs_12 fs_12_mobile mb-3">
+                                    We only ever need a teaspoon of ashes to create your
+                                    gemstone. Any that remain will be carefully returned to you
+                                    with your finished jewellery.
+                                </p>
+
+                                <p class="fs_12 fs_12_mobile mb-0">
+                                    <b>Step 4: Your Gemstone is Crafted</b>
+                                </p>
+                                <p class="fs_12 fs_12_mobile mb-3">
+                                    If our glass studio, skilled artisans use traditional
+                                    lampworking techniques with authentic Venetian Murano glass
+                                    to encase the ashes within a gemstone. Each one is
+                                    individually handmade, unique, and a lasting tribute to your
+                                    loved one.
+                                </p>
+
+                                <p class="fs_12 fs_12_mobile mb-0">
+                                    <b>Step 5: Jewellery is Finished</b>
+                                </p>
+                                <p class="fs_12 fs_12_mobile mb-3">
+                                    Once your gemstone has been created, it is carefully set
+                                    into your chosen jewellery mount by our expert jewellers.
+                                    Every piece is polished, checked, and finished to the
+                                    highest standard, ready to be treasured for years to come.
+                                </p>
+
+                                <p class="fs_12 fs_12_mobile mb-0">
+                                    <b>Step 6: Delivery of Your Jewellery</b>
+                                </p>
+                                <p class="fs_12 fs_12_mobile mb-3">
+                                    Your completed jewellery will be presented in our luxury
+                                    gift packaging. We'll notify you by email as soon as it's on
+                                    its way, ready for you to wear or to give as a meaningful
+                                    gift.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Buy Now Pay Later Nested Offcanvas -->
+                    <div class="offcanvas right-sidebar-customise metal_glass_sidebar offcanvas-end" tabindex="-1"
+                        id="buyNowPayLater">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title font-cormorant" id="offcanvasRightLabel">
+                                Buy Now Pay Later
+                            </div>
+                            <button type="button" class="back-to-buyers" aria-label="back to buyers guide">
+                                <i class="far fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="offcanvas-body d-flex buyers-canvas-body py-4">
+                            <div
+                                class="engraving_list scrollbar_custom pe-1 flex-shrink-1 flex-grow-1 overflow-auto d-flex flex-column gap-3">
+                                <div class="fs_12 description flex flex-column gap-3 mb-2">
+                                    <p>All of our products are custom made, which means that we can't specify
+                                        exactly how long it will take to produce, but we can give you an rough
+                                        estimate.</p>
+                                    <p>On average it takes 2-3 weeks from when we receive the ashes to complete your
+                                        order.</p>
+                                    <p>Gold items usually take 3-4 weeks due to the extra hallmarking step which is
+                                        required by law for all gold items.</p>
+                                    <p>If there is a special case you'd like us to finish your order by, then please
+                                        get in touch and we'll see if it will be possible.</p>
+                                    <p>We will however keep you updated throughout the process, and you'll receive
+                                        email notifications at the following steps:</p>
+                                </div>
+                                <div class="grid_list d-flex flex-column gap-3">
+                                    <div class="grid d-flex w-100 flex-column gap-1">
+                                        <h2 class="fs_30_heading fw-normal font-cormorant">Step 1 - Ashes Received
+                                        </h2>
+                                        <p class="text_section_16">As soon as the ashes are received at our
+                                            facility, we'll process them and
+                                            notify you by email of their arrival.</p>
+                                    </div>
+                                    <div class="grid d-flex w-100 flex-column gap-1">
+                                        <h2 class="fs_30_heading fw-normal font-cormorant">Step 2 - Mount Being Made
+                                        </h2>
+                                        <p class="text_section_16">As soon as the ashes are received at our
+                                            facility, we'll process them and
+                                            notify you by email of their arrival.</p>
+                                    </div>
+                                    <div class="grid d-flex w-100 flex-column gap-1">
+                                        <h2 class="fs_30_heading fw-normal font-cormorant">Step 3 - Glass Being Made
+                                        </h2>
+                                        <p class="text_section_16">Whilst the mount is being made, we then organise
+                                            the glass ashes to be
+                                            produced. Typically it takes 1 - 2 weeks to complete your order from
+                                            this notification.</p>
+                                    </div>
+                                    <div class="grid d-flex w-100 flex-column gap-1">
+                                        <h2 class="fs_30_heading fw-normal font-cormorant">Step 4 - Hallmarking</h2>
+                                        <p class="text_section_16">If your order contains any gold items, we send
+                                            the finished mount for
+                                            hallmarking at the Birmingham assay office. Typically it takes 3-5 days
+                                            to complete your order from this notification.</p>
+                                    </div>
+                                    <div class="grid d-flex w-100 flex-column gap-1">
+                                        <h2 class="fs_30_heading fw-normal font-cormorant">Step 5 - Ready to Ship
+                                        </h2>
+                                        <p class="text_section_16">When your order is ready to ship, we notify you
+                                            with a tracking number
+                                            for next day delivery.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Murano Glass Nested Offcanvas -->
+                    <div class="offcanvas right-sidebar-customise metal_glass_sidebar offcanvas-end" tabindex="-1"
+                        id="muranoGlass">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title font-cormorant" id="offcanvasRightLabel">
+                                Murano Glass Gemstones
+                            </div>
+                             <button type="button" class="back-to-buyers" aria-label="back to buyers guide">
+                                <i class="far fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="offcanvas-body d-flex buyers-canvas-body py-4">
+                            <div
+                                class="d-flex w-100 buyers_list overflow-auto flex-column gap-3 flex-grow-1 flex-shrink-1 scrollbar_custom">
+                                <p>Content for Murano Glass...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 year Warranty -->
+                    <div class="offcanvas right-sidebar-customise metal_glass_sidebar offcanvas-end" tabindex="-1"
+                        id="3yearWarranty">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title font-cormorant" id="offcanvasRightLabel">
+                                3 Year Warranty
+                            </div>
+                            <button type="button" class="back-to-buyers" aria-label="back to buyers guide">
+                                <i class="far fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="offcanvas-body d-flex flex-column py-4">
+                            <div class="flex-shrink-1 flex-grow-1 overflow-auto scrollbar_custom pe-1">
+                                <p class="fs_12 fs_12_mobile mb-3">We want every piece of Alba Rose Ashes jewellery to
+                                    be
+                                    cherished for a lifetime, which is why we offer a comprehensive 3 Year Warranty on
+                                    all our
+                                    items.</p>
+                                <div class="mb-3">
+                                    <p class="mb-1 fs_12 fs_12_mobile">
+                                        <b>Our warranty covers:</b>
+                                    </p>
+                                    <ul class="pe-0 ps-3">
+                                        <li class="fs_12 disc-type fs_12_mobile">Manufacturing faults in materials or
+                                            craftsmanship
+                                        </li>
+                                        <li class="fs_12 disc-type fs_12_mobile">Stone setting security, ensuring your
+                                            glass
+                                            gemstone is
+                                            held safely.</li>
+                                    </ul>
+                                </div>
+                                <div class="mb-3">
+                                    <p class="mb-1 fs_12 fs_12_mobile">
+                                        <b>What’s not covered:</b>
+                                    </p>
+                                    <ul class="pe-0 ps-3">
+                                        <li class="fs_12 disc-type fs_12_mobile">Normal wear and tear (such as scratches
+                                            or
+                                            tarnishing).</li>
+                                        <li class="fs_12 disc-type fs_12_mobile">Plating and finish , including rhodium
+                                            or gold
+                                            plating starting to wear away.</li>
+                                        <li class="fs_12 disc-type fs_12_mobile">Damage caused by accidents, improper
+                                            handling, or
+                                            contact with chemicals.</li>
+                                        <li class="fs_12 disc-type fs_12_mobile">Repairs or alterations made by another
+                                            jeweller.
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p class="fs_12 fs_12_mobile mb-3">If you ever experience an issue within 3 years of
+                                    purchase,
+                                    simply contact our team and we will repair, replace, or restore your jewellery free
+                                    of
+                                    charge
+                                    under the terms of our warranty.</p>
+
+                                <p class="fs_12 fs_12_mobile mb-3">We stand behind the quality of our craftsmanship and
+                                    materials,
+                                    giving you peace of mind that your jewellery is protected and made to last.</p>
+                                <p class="fs_12 fs_12_mobile mb-3">If your Alba Rose jewellery has some wear and tear,
+                                    which
+                                    is
+                                    natural after years of wear, we offer a 10 day refurbishment service for just £59
+                                    per item
+                                    to
+                                    bring your jewellery back to its new condition.</p>
+                                <p class="fs_12 fs_12_mobile mb-3">Contact us to get your jewellery refurbished.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Free Shipping -->
+                    <div class="offcanvas right-sidebar-customise metal_glass_sidebar offcanvas-end" tabindex="-1"
+                        id="freeshipping">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title font-cormorant" id="offcanvasRightLabel">
+                                Free Shipping
+                            </div>
+                            <button type="button" class="back-to-buyers" aria-label="back to buyers guide">
+                                <i class="far fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="offcanvas-body d-flex flex-column py-4">
+                            <p class="fs_12 fs_12_mobile mb-3">Every Alba Rose order comes with free shipping, no matter
+                                the value of your purchase.</p>
+
+                            <p class="fs_12 fs_12_mobile mb-3">We believe that something as meaningful as memorial
+                                jewellery should arrive with care and without extra cost.
+                                Your jewellery will be securely packaged and sent by tracked delivery, giving you peace
+                                of
+                                mind
+                                every step of the way.</p>
+
+                            <p class="fs_12 fs_12_mobile mb-3">Whether you are ordering for yourself or sending a
+                                heartfelt gift, delivery is always free —
+                                it’s our way of making the process as simple and stress-free as possible.</p>
+                        </div>
+                    </div>
+                    <!-- authenticity certificate -->
+                    <div class="offcanvas right-sidebar-customise metal_glass_sidebar offcanvas-end" tabindex="-1"
+                        id="authenticityCertificate">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title font-cormorant" id="offcanvasRightLabel">
+                                Authenticity Certificate
+                            </div>
+                            <button type="button" class="back-to-buyers" aria-label="back to buyers guide">
+                                <i class="far fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="offcanvas-body d-flex flex-column py-4">
+                            <p class="fs_12 fs_12_mobile mb-3">
+                                With every piece of Alba Rose jewellery, you will receive a
+                                Certificate of Authenticity. This certificate is our promise
+                                that the gemstone we have created truly contains the ashes of
+                                your loved one, carefully and respectfully encased within the
+                                Murano glass.
+                            </p>
+
+                            <p class="fs_12 fs_12_mobile mb-3">
+                                We understand the deep trust you place in us when sending
+                                something so precious. The certificate provides you with
+                                reassurance and peace of mind — a written confirmation of the
+                                care, integrity, and craftsmanship behind your jewellery.
+                            </p>
+
+                            <p class="fs_12 fs_12_mobile mb-3">
+                                Each certificate is unique to your order and serves as a
+                                lasting record, ensuring you can treasure your jewellery with
+                                complete confidence.
+                            </p>
+                            <img src="images/engrave-guide.png" alt="Authenticity image" />
+                        </div>
+                    </div>
+                    <!-- Gift Packaging -->
+                    <div class="offcanvas right-sidebar-customise metal_glass_sidebar offcanvas-end" tabindex="-1"
+                        id="giftPackaging">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title font-cormorant" id="offcanvasRightLabel">
+                                Gift Packaging
+                            </div>
+                            <button type="button" class="back-to-buyers" aria-label="back to buyers guide">
+                                <i class="far fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="offcanvas-body d-flex flex-column py-4">
+                            <p class="fs_12 fs_12_mobile mb-3">
+                                Every piece of Alba Rose jewellery arrives in our luxurious
+                                gift packaging, designed to make the moment of receiving it as
+                                special as the jewellery itself.
+                            </p>
+
+                            <p class="fs_12 fs_12_mobile mb-3">
+                                Your chosen piece is carefully presented in a high-quality
+                                keepsake box, complete with our signature touches. Whether you
+                                are ordering for yourself or as a gift for someone dear, the
+                                presentation reflects the care, respect, and craftsmanship
+                                that goes into every item we create.
+                            </p>
+
+                            <p class="fs_12 fs_12_mobile mb-3">
+                                Our packaging is not only beautiful, but also a lasting
+                                keepsake in its own right — a box that can be treasured, just
+                                like the jewellery inside.
+                            </p>
+                            <img src="images/engrave-guide.png" alt="Gift image" />
+                        </div>
+                    </div>
+                    <!-- free returns -->
+                    <div class="offcanvas right-sidebar-customise metal_glass_sidebar offcanvas-end" tabindex="-1"
+                        id="freeReturns">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title font-cormorant" id="offcanvasRightLabel">
+                                Return Policy
+                            </div>
+                            <button type="button" class="back-to-buyers" aria-label="back to buyers guide">
+                                <i class="far fa-times" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <div class="offcanvas-body d-flex flex-column py-4">
+                            <div class="flex-shrink-1 flex-grow-1 overflow-auto scrollbar_custom pe-1">
+                                <p class="fs_12 fs_12_mobile mb-3">
+                                    We understand how personal and meaningful each piece of
+                                    ashes jewellery is. Because every item is custom made just
+                                    for you, returns and refunds are limited — but we always
+                                    want to help when something goes wrong.
+                                </p>
+                                <p class="fs_12 fs_12_mobile mb-3">
+                                    <b>When you can return an item?</b>
+                                </p>
+                                <div class="mb-3">
+                                    <p class="mb-1 fs_12 fs_12_mobile">
+                                        We can accept a return only if:
+                                    </p>
+                                    <ul class="ps-3 pe-0">
+                                        <li class="fs_12 disc-type fs_12_mobile">
+                                            The jewellery doesn’t match what you ordered (for
+                                            example, wrong design, engraving, or glass colour).
+                                        </li>
+                                        <li class="fs_12 disc-type fs_12_mobile">
+                                            There’s a manufacturing or quality fault.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="fs_12 fs_12_mobile mb-3">
+                                    If you believe one of these applies, please contact us
+                                    within 14 days of receiving your order. Email us at
+                                    support@albaroseashes.co.uk or call 01702 837012, including
+                                    your order number, a description of the issue, and clear
+                                    photographs if relevant
+                                </p>
+                                <p class="fs_12 fs_12_mobile mb-3">
+                                    Once we review your case, we’ll arrange a repair,
+                                    replacement, or return free of charge if it falls under our
+                                    return policy.
+                                </p>
+                                <div class="mb-3">
+                                    <p class="mb-1 fs_12 fs_12_mobile">
+                                        <b class="d-block">Cancellations & refunds</b>
+                                        Because we personalise every piece using your entrusted
+                                        ashes, we can only issue a full refund if:
+                                    </p>
+                                    <ul class="ps-3 pe-0">
+                                        <li class="fs_12 disc-type fs_12_mobile">
+                                            You cancel before we begin work on your jewellery, or
+                                        </li>
+                                        <li class="fs_12 disc-type fs_12_mobile">
+                                            We have not yet received your ashes.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="fs_12 fs_12_mobile mb-3">
+                                    Once production starts or your ashes arrive with us, we
+                                    cannot offer a refund due to the nature of the product.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -257,30 +749,39 @@
                                     </div>
                                     <div class="grid_list d-flex flex-column gap-3">
                                         <div class="grid d-flex w-100 flex-column gap-1">
-                                            <h2 class="fs_30_heading fw-normal font-cormorant">Step 1 - Ashes Received</h2>
-                                            <p class="text_section_16">As soon as the ashes are received at our facility, we'll process them and
+                                            <h2 class="fs_30_heading fw-normal font-cormorant">Step 1 - Ashes Received
+                                            </h2>
+                                            <p class="text_section_16">As soon as the ashes are received at our
+                                                facility, we'll process them and
                                                 notify you by email of their arrival.</p>
                                         </div>
                                         <div class="grid d-flex w-100 flex-column gap-1">
-                                            <h2 class="fs_30_heading fw-normal font-cormorant">Step 2 - Mount Being Made</h2>
-                                            <p class="text_section_16">As soon as the ashes are received at our facility, we'll process them and
+                                            <h2 class="fs_30_heading fw-normal font-cormorant">Step 2 - Mount Being Made
+                                            </h2>
+                                            <p class="text_section_16">As soon as the ashes are received at our
+                                                facility, we'll process them and
                                                 notify you by email of their arrival.</p>
                                         </div>
                                         <div class="grid d-flex w-100 flex-column gap-1">
-                                            <h2 class="fs_30_heading fw-normal font-cormorant">Step 3 - Glass Being Made</h2>
-                                            <p class="text_section_16">Whilst the mount is being made, we then organise the glass ashes to be
+                                            <h2 class="fs_30_heading fw-normal font-cormorant">Step 3 - Glass Being Made
+                                            </h2>
+                                            <p class="text_section_16">Whilst the mount is being made, we then organise
+                                                the glass ashes to be
                                                 produced. Typically it takes 1 - 2 weeks to complete your order from
                                                 this notification.</p>
                                         </div>
                                         <div class="grid d-flex w-100 flex-column gap-1">
                                             <h2 class="fs_30_heading fw-normal font-cormorant">Step 4 - Hallmarking</h2>
-                                            <p class="text_section_16">If your order contains any gold items, we send the finished mount for
+                                            <p class="text_section_16">If your order contains any gold items, we send
+                                                the finished mount for
                                                 hallmarking at the Birmingham assay office. Typically it takes 3-5 days
                                                 to complete your order from this notification.</p>
                                         </div>
                                         <div class="grid d-flex w-100 flex-column gap-1">
-                                            <h2 class="fs_30_heading fw-normal font-cormorant">Step 5 - Ready to Ship</h2>
-                                            <p class="text_section_16">When your order is ready to ship, we notify you with a tracking number
+                                            <h2 class="fs_30_heading fw-normal font-cormorant">Step 5 - Ready to Ship
+                                            </h2>
+                                            <p class="text_section_16">When your order is ready to ship, we notify you
+                                                with a tracking number
                                                 for next day delivery.</p>
                                         </div>
                                     </div>
