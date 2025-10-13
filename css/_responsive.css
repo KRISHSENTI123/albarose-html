@@ -407,7 +407,8 @@
   }
 
   .materials_sec .materials_sec_box .image_content .product_name {
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 130%;
   }
 
   .materials_sec .materials_sec_box_image .image_content {
@@ -505,10 +506,6 @@
 
   .materials_sec .materials_sec_box_image .image_box img {
     height: 170px;
-  }
-
-  .materials_sec .materials_sec_box .image_content .product_name {
-    font-size: 14px;
   }
 
   .materials_sec .materials_sec_box .image_content .product_price {
