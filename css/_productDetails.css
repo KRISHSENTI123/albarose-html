@@ -276,7 +276,7 @@
 }
 
 .cshdn2 {
-  font-size: 26px;
+  font-size: 30px;
 }
 
 .price {
@@ -432,7 +432,7 @@
   padding: 10px 30px;
 }
 
-.btn-apply:disabled, .btn-apply[disabled] {
+.btn-apply:disabled, .btn-apply[disabled], .btn-wishlist:disabled, .btn-wishlist[disabled] {
   background-color: #CD9ABB;
   color: white;
   transition: all 0.3s ease-in-out;
@@ -673,17 +673,17 @@
 .engraving-canvas-body .engraving_list .description p {
   font-size: 14px;
   line-height: 150%;
-  color: #000000;
+  color: var(--black);
   font-family: var(--font-inter);
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .engraving-canvas-body .engraving_list .grid_list .grid h2 {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 150%;
   color: var(--black);
   font-family: var(--font-cormorant);
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .engraving-canvas-body .engraving_list .grid_list .grid p {
@@ -691,7 +691,7 @@
   line-height: 150%;
   color: var(--black);
   font-family: var(--font-inter);
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .engraving-canvas-body .engraving_list .grid_list .grid img {
@@ -818,13 +818,7 @@ table.sizeChartTable {
 
 
 @media (max-width: 575px) {
-
-  .cshdn2,
   .price {
     font-size: 20px;
-  }
-
-  .fs_12_mobile {
-    font-size: 12px;
   }
 }
