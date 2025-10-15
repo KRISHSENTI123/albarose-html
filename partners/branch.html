@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>order-confirmation</title>
+    <title>branch</title>
     <link rel="icon" type="image/x-icon" href="../images/Favicon-Icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <link rel="stylesheet"
@@ -1447,154 +1447,153 @@
             <h1 class="text-center offers_text">PARTNER PORTAL</h1>
         </div>
     </div>
-
-    <section class="order_conf_banner pt-4">
+    <section class="open_order_dashboardsec py-4">
         <div class="albarose_container">
-            <div class="order_conf_banner_grid row">
-                <div class="col-12">
-                    <div class="conf_details">
-                        <div class="conf_heading d-flex justify-content-between">
-                            <h2 class="fs_30_heading mb-3 font-cormorant">Order Confirmation <strong
-                                    class="font-inter">216645</strong>
-                            </h2>
-                            <div class="text-lg-end d-lg-block d-none conf_date mt-lg-0 mt-2 text-start">
-                                <p class="text_section_16">Order Date: 10/06/25</p>
-                                <p class="text_section_16">Usually Ships Before: 28th October</p>
-                            </div>
-                        </div>
-                        <p class="mb-3 text_section_16">Your order has been received and an email confirmation has been sent to your customer at <a class="text-decoration-underline text-primary" href="mailto:ryanedkins@gmail.com">ryanedkins@gmail.com</a>. </p>
-                        <p class="mb-3 text_section_16">Using the order number above, you can now generate a royal mail tracked 48 label to send the ashes to us.
-                        <br />***Please remember to include the shipping docket within the ashes parcel.</p>
-                        <div class="text-lg-end d-lg-none d-block conf_date mt-lg-0 mt-2 text-start">
-                            <p class="text_section_16">Order Date: 10/06/25</p>
-                            <p class="text_section_16">Usually Ships Before: 28th October</p>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="confirmation_button mt-lg-0 mt-3 flex-wrap flex-column flex-sm-row d-flex gap-sm-4 gap-3">
-                                    <button class="primary_button">Generate Royal Mail Label</button>
-                                    <button class="primary_button">Print Shipping Docket</button>
-                                </div>
-                            </div>
-                        </div>
+            <div class="heading d-flex gap-2 align-items-center justify-content-between mb-sm-2 mb-1">
+                <h2 class="font-cormorant fs_30_heading fw-normal">Branches</h2>
+                <button class="primary_button w-auto min-w-auto">Add Branch</button>
+            </div>
+        </div>
+    </section>
+    <section class="open_orderTable_sec pb-sm-5 pb-4">
+        <div class="albarose_container">
+            <div class="open-order-card">
+                <div
+                    class="heading d-flex flex-sm-row gap-sm-0 gap-3 flex-column justify-content-sm-between p-sm-4 p-3">
+                    <div class="searchbox">
+                        <input type="text" placeholder="Search Order" />
+                    </div>
+                    <div class="d-flex export_sec gap-2 align-items-center">
+                        <select>
+                            <option>5</option>
+                            <option>10</option>
+                            <option>15</option>
+                            <option>20</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="table_body">
+                    <div class="table-responsive">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>STATUS</th>
+                                    <th>NAME</th>
+                                    <th>EMAIL</th>
+                                    <th>PHONE</th>
+                                    <th>MANAGER</th>
+                                    <th>ID/M TOTAL</th>
+                                    <th class="text-end">EDIT</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span class="status-badge status-received">ACTIVE</span></td>
+                                    <td>BRANCH 1</td>
+                                    <td class="text-black">Branch1@funeraldirector.co.uk</td>
+                                    <td class="text-black">01702 334455</td>
+                                    <td class="text-black">Sally Director</td>
+                                    <td>£1245.45</td>
+                                    <td class="text-end"><button class="edit-btn">EDIT</button></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="status-badge status-received">ACTIVE</span></td>
+                                    <td>BRANCH 2</td>
+                                    <td class="text-black">Branch1@funeraldirector.co.uk</td>
+                                    <td class="text-black">01702 334455</td>
+                                    <td class="text-black">Sally Director</td>
+                                    <td>£1245.45</td>
+                                    <td class="text-end"><button class="edit-btn">EDIT</button></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="status-badge status-received">ACTIVE</span></td>
+                                    <td>BRANCH 3</td>
+                                    <td class="text-black">Branch1@funeraldirector.co.uk</td>
+                                    <td class="text-black">01702 334455</td>
+                                    <td class="text-black">Sally Director</td>
+                                    <td>£1245.45</td>
+                                    <td class="text-end"><button class="edit-btn">EDIT</button></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="status-badge status-received">ACTIVE</span></td>
+                                    <td>BRANCH 4</td>
+                                    <td class="text-black">Branch1@funeraldirector.co.uk</td>
+                                    <td class="text-black">01702 334455</td>
+                                    <td class="text-black">Sally Director</td>
+                                    <td>£1245.45</td>
+                                    <td class="text-end"><button class="edit-btn">EDIT</button></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="status-badge status-received">ACTIVE</span></td>
+                                    <td>BRANCH 5</td>
+                                    <td class="text-black">Branch1@funeraldirector.co.uk</td>
+                                    <td class="text-black">01702 334455</td>
+                                    <td class="text-black">Sally Director</td>
+                                    <td>£1245.45</td>
+                                    <td class="text-end"><button class="edit-btn">EDIT</button></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="status-badge status-received">ACTIVE</span></td>
+                                    <td>BRANCH 5</td>
+                                    <td class="text-black">Branch1@funeraldirector.co.uk</td>
+                                    <td class="text-black">01702 334455</td>
+                                    <td class="text-black">Sally Director</td>
+                                    <td>£1245.45</td>
+                                    <td class="text-end"><button class="edit-btn">EDIT</button></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="status-badge status-received">ACTIVE</span></td>
+                                    <td>BRANCH 6</td>
+                                    <td class="text-black">Branch1@funeraldirector.co.uk</td>
+                                    <td class="text-black">01702 334455</td>
+                                    <td class="text-black">Sally Director</td>
+                                    <td>£1245.45</td>
+                                    <td class="text-end"><button class="edit-btn">EDIT</button></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="status-badge status-received">ACTIVE</span></td>
+                                    <td>BRANCH 7</td>
+                                    <td class="text-black">Branch1@funeraldirector.co.uk</td>
+                                    <td class="text-black">01702 334455</td>
+                                    <td class="text-black">Sally Director</td>
+                                    <td>£1245.45</td>
+                                    <td class="text-end"><button class="edit-btn">EDIT</button></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="status-badge status-received">ACTIVE</span></td>
+                                    <td>BRANCH 8</td>
+                                    <td class="text-black">Branch1@funeraldirector.co.uk</td>
+                                    <td class="text-black">01702 334455</td>
+                                    <td class="text-black">Sally Director</td>
+                                    <td>£1245.45</td>
+                                    <td class="text-end"><button class="edit-btn">EDIT</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div
+                    class="pagination-wrapper d-flex gap-3 align-items-center flex-md-row flex-column justify-content-md-between justify-content-center">
+                    <div class="pagination-info">
+                        Showing 1 to 10 of 100 entries
+                    </div>
+                    <div class="pagination">
+                        <button class="page-btn" disabled>«</button>
+                        <button class="page-btn">‹</button>
+                        <button class="page-btn">1</button>
+                        <button class="page-btn">2</button>
+                        <button class="page-btn active">3</button>
+                        <button class="page-btn">4</button>
+                        <button class="page-btn">5</button>
+                        <button class="page-btn">6</button>
+                        <button class="page-btn">›</button>
+                        <button class="page-btn">»</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="order_conf_table_section pt-4">
-        <div class="albarose_container">
-            <div class="cart_item">
-                <table class="cart_table order_conf_table table">
-                    <thead>
-                        <tr>
-                            <th>Order Summary</th>
-                            <th class="text-end"><span class="d-none d-lg-block">Price</span></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                <div class="product d-flex gap-sm-3 gap-2 align-items-start">
-                                    <div class="product_image">
-                                        <img src="../images/necklace-1.png" alt="necklace" />
-                                    </div>
-                                    <div class="product_details flex-shrink-1 flex-grow-1">
-                                        <p class="font-cormorant">Tribute Ring </p>
-                                        <p class="font-cormorant">Sapphire Murano Glass</p>
-                                        <p>Metal: 9ct White Gold</p>
-                                        <p>Ring Size: R</p>
-                                        <p>Engraving: Always & Forever</p>
-                                        <div class="d-flex flex-row align-items-center justify-content-between">
-                                            <p class="text-primary fw-medium">20% Off</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
-                                <div class="price_details align-items-end d-flex flex-column">
-                                    <p>£195.00</p>
-                                </div>
-                            </td>
-
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
-    <section class="order_conf_box_sec py-sm-5 py-3">
-        <div class="albarose_container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="conf_box mb-3">
-                        <div class="heading">
-                            <h2 class="fs_30_heading font-cormorant">Delivery Information</h2>
-                        </div>
-                        <div class="content px-3">
-                            <div class="row my-sm-3 my-2">
-                                <div class="col-12">
-                                    <div class="left_part d-flex align-items-start gap-2 flex-column">
-                                        <p class="text_section_16">Delivery Address</p>
-                                        <p class="text_section_16">Ryan Edkins</p>
-                                        <p class="text_section_16">35 Victoria Road</p>
-                                        <p class="text_section_16">Leigh-on-sea, Essex</p>
-                                        <p class="text_section_16">SS9 1AU Kingdom</p>
-                                        <p class="text_section_16">Mobile: +44 7811387211</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="conf_box mb-sm-5 mb-3">
-                        <div class="heading">
-                            <h2 class="fs_30_heading font-cormorant">Payment Method</h2>
-                        </div>
-                        <div class="content px-3">
-                            <div class="row my-sm-3 my-2">
-                                <div class="col-12">
-                                    <div class="left_part d-flex align-items-start gap-2 flex-column">
-                                        <p class="text_section_16">30 Day Credit Account</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="conf_box">
-                        <div class="heading">
-                            <h2 class="fs_30_heading font-cormorant">Billing Summary</h2>
-                        </div>
-                        <div class="content px-3">
-                            <div class="row my-sm-3 my-2">
-                                <div class="col-6">
-                                    <div class="left_part d-flex align-items-start gap-2 flex-column">
-                                        <p class="text_section_16">Items Total</p>
-                                        <p class="text_section_16">Vat</p>
-                                        <p class="text_section_16">Shipping</p>
-                                        <p class="text_section_16">Total For Your Order</p>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div class="left_part d-flex align-items-end gap-2 flex-column text-end">
-                                        <p class="text_section_16 fw-bold"><strong>£195.00</strong></p>
-                                        <p class="text_section_16 fw-bold"><strong>£20.00</strong></p>
-                                        <p class="text_section_16 fw-bold"><strong>£0.00</strong></p>
-                                        <p class="text_section_16 fw-bold"><strong>£210.00</strong></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-   <footer class="footer-section">
+    <footer class="footer-section">
         <div class="albarose_container">
             <div class="d-flex flex-row images_footer pb-4 justify-content-center align-items-center gap-6">
                 <div>
@@ -1619,8 +1618,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/product.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/product.js"></script>
 </body>
 
 </html>

@@ -10,6 +10,7 @@
   --gray-300: #f8f8f8;
   --gray-400: #f9f8f7;
   --gray-600: #757575;
+  --dark-gray: #2F2B3DB2;
   --footer-link-color: #4b4b4b;
   --white: #fff;
   --dark-pink: #b56899;
@@ -19,6 +20,7 @@
   /* Fonts */
   --font-inter: "Inter", sans-serif;
   --font-cormorant: "Cormorant", serif;
+  --font-public-sans: "Public Sans", sans-serif
 }
 
 /* ============================================
@@ -45,6 +47,9 @@ body {
 
 .font-cormorant {
   font-family: var(--font-cormorant) !important;
+}
+.font-public-sans {
+  font-family: var(--font-public-sans) !important;
 }
 
 h1,
@@ -149,6 +154,14 @@ p{
   color: var(--black-300);
 }
 
+.text-black {
+  color: var(--black) !important;
+}
+
+.min-w-auto{
+  min-width: auto !important;
+}
+
 strong.text_section_16, .text_section_16 strong, b.text_section_16, .text_section_16 b {
   font-size: 14px !important;
   line-height: 150%;
@@ -180,6 +193,11 @@ button {
   cursor: pointer;
 }
 
+.export_btn {
+  background: #80839029;
+  color: #808390;
+}
+
 .btn:disabled,
 .btn.disabled {
   color: inherit !important;
@@ -195,6 +213,7 @@ button {
    ============================================ */
 .primary_button {
   padding: 10px 30px;
+  font-size: 14px;
   min-width: 200px;
   height: 42px;
   background-color: var(--dark-pink);
@@ -202,6 +221,16 @@ button {
   border-radius: 4px;
   border: 1px solid var(--dark-pink);
   transition: all 0.3s ease-in-out;
+}
+
+.primary_button:disabled,
+.primary_button.disabled {
+  color: white !important;
+  background-color: #CD9ABB !important;
+  border-color: inherit !important;
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+  pointer-events: none;
 }
 
 .primary_button:hover {

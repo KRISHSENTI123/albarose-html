@@ -43,9 +43,7 @@
     font-weight: 300;
     font-size: 14px;
 }
-.cart_table tbody tr:last-child td {
-    border-bottom: none !important;
-}
+
 
 .cart_table tbody tr td .product_image,  .cart_table tbody tr td .product_image img{
     width: 200px;
