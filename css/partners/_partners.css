@@ -49,19 +49,19 @@
   color: white;
 }
 
-.partners_cart_sec .form_reference .form-group label {
+.form-inputs-section .form-group label {
   font-size: 14px;
   font-weight: 500;
   color: var(--black);
   margin-bottom: 0.525rem;
 }
 
-.partners_cart_sec .form_reference .form-group input[type="text"],
-.partners_cart_sec .form_reference .form-group input[type="email"],
-.partners_cart_sec .form_reference .form-group input[type="number"],
-.partners_cart_sec .form_reference .form-group input[type="password"],
-.partners_cart_sec .form_reference .form-group textarea,
-.partners_cart_sec .form_reference .form-group select {
+.form-inputs-section .form-group input[type="text"],
+.form-inputs-section .form-group input[type="email"],
+.form-inputs-section .form-group input[type="number"],
+.form-inputs-section .form-group input[type="password"],
+.form-inputs-section .form-group textarea,
+.form-inputs-section .form-group select {
   height: 40px;
   border-radius: 4px;
   border: 1px solid #a3a3a3;
@@ -76,7 +76,7 @@
   box-sizing: border-box;
 }
 
-.partners_cart_sec .form_reference .form-group select {
+.form-inputs-section .form-group select {
   appearance: none;
   /* Remove default arrow */
   -webkit-appearance: none;
@@ -85,30 +85,30 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='4 6 8 10 12 6'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 7px center;
-  background-size: 15px;
+  background-size: 18px;
 }
 
-.partners_cart_sec .form_reference .form-group input[type="text"]:focus,
-.partners_cart_sec .form_reference .form-group input[type="email"]:focus,
-.partners_cart_sec .form_reference .form-group input[type="number"]:focus,
-.partners_cart_sec .form_reference .form-group input[type="password"]:focus,
-.partners_cart_sec .form_reference .form-group textarea:focus,
-.partners_cart_sec .form_reference .form-group select:focus {
+.form-inputs-section .form-group input[type="text"]:focus,
+.form-inputs-section .form-group input[type="email"]:focus,
+.form-inputs-section .form-group input[type="number"]:focus,
+.form-inputs-section .form-group input[type="password"]:focus,
+.form-inputs-section .form-group textarea:focus,
+.form-inputs-section .form-group select:focus {
   border-color: var(--dark-pink);
 }
 
-.partners_cart_sec .form_reference .form-group input[type="text"]::placeholder,
-.partners_cart_sec .form_reference .form-group input[type="email"]::placeholder,
-.partners_cart_sec .form_reference .form-group input[type="number"]::placeholder,
-.partners_cart_sec .form_reference .form-group input[type="password"]::placeholder,
-.partners_cart_sec .form_reference .form-group textarea::placeholder {
+.form-inputs-section .form-group input[type="text"]::placeholder,
+.form-inputs-section .form-group input[type="email"]::placeholder,
+.form-inputs-section .form-group input[type="number"]::placeholder,
+.form-inputs-section .form-group input[type="password"]::placeholder,
+.form-inputs-section .form-group textarea::placeholder {
   color: #a1a1a1;
   font-weight: 200;
   font-style: italic;
   font-size: 14px;
 }
 
-.partners_cart_sec .form_reference .primary_button {
+.form-inputs-section .primary_button {
   font-size: 14px;
   width: 100%;
 }
@@ -149,7 +149,7 @@
   padding: 6px 12px;
   border-radius: 6px;
   font-size: 14px;
-  color: #2F2B3D66;
+  color: #2f2b3d66;
   appearance: none;
   /* Remove default arrow */
   -webkit-appearance: none;
@@ -159,7 +159,7 @@
   background-repeat: no-repeat;
   background-position: right 7px center;
   background-size: 15px;
-  border: 1px solid #2F2B3D38;
+  border: 1px solid #2f2b3d38;
   border-radius: 6px;
 }
 
@@ -301,8 +301,8 @@
 }
 
 .open_orderTable_sec .status-received {
-  background-color: #28C76F29;
-  color: #28C76F;
+  background-color: #28c76f29;
+  color: #28c76f;
 }
 
 .open_orderTable_sec .tracking {
@@ -311,8 +311,8 @@
 }
 
 .open_orderTable_sec .status-waiting {
-  background-color: #F8F0F5;
-  color: #A55F8B;
+  background-color: #f8f0f5;
+  color: #a55f8b;
 }
 
 .open_orderTable_sec .action-btn {
@@ -363,7 +363,7 @@
   width: 36px;
   height: 36px;
   border: 1px solid transparent;
-  background: #2F2B3D14;
+  background: #2f2b3d14;
   border-radius: 6px;
   cursor: pointer;
   font-size: 14px;
@@ -375,13 +375,12 @@
 .open_orderTable_sec .page-btn[disabled] {
   cursor: not-allowed;
   opacity: 0.5;
-  background: #2F2B3D14 !important;
+  background: #2f2b3d14 !important;
   color: var(--black) !important;
 }
 
-
 .open_orderTable_sec .page-btn:hover:not(.active) {
-  background-color: #F8F0F5;
+  background-color: #f8f0f5;
   color: var(--dark-pink);
 }
 
@@ -396,7 +395,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 25px 0px;
-  box-shadow: 0px 3px 12px 0px #2F2B3D24;
+  box-shadow: 0px 3px 12px 0px #2f2b3d24;
   border-radius: 6px;
 }
 
@@ -413,7 +412,7 @@
 }
 
 .open_order_row .open_order_grid:not(:last-child) {
-  border-right: 1px solid #2F2B3D1F;
+  border-right: 1px solid #2f2b3d1f;
 }
 
 .open_order_row .open_order_grid p {
@@ -423,12 +422,56 @@
 }
 
 .open_order_row .open_order_grid .icon {
-  background-color: #EEEDF0;
+  background-color: #eeedf0;
   width: 40px;
   height: 40px;
   display: grid;
   place-items: center;
   border-radius: 6px;
+}
+
+.albarose_toggle .switchSmall {
+  display: inline-block;
+}
+.albarose_toggle .switchSmall input {
+  display: none;
+}
+
+.albarose_toggle .switchSmall small {
+  display: inline-block;
+  width: 35px;
+  height: 20px;
+  background: #2f2b3d1a;
+  border-radius: 30px;
+  box-shadow: 0px 0px 4px 0px #00000029 inset;
+  position: relative;
+  cursor: pointer;
+  line-height: 1;
+}
+.albarose_toggle .switchSmall small:before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border-radius: 50%;
+  top: 2px;
+  left: 3px;
+  transition: 0.3s;
+  box-shadow: -3px 0 3px rgba(0, 0, 0, 0.1);
+}
+.albarose_toggle .switchSmall input:checked ~ small {
+  background: var(--dark-pink);
+  transition: 0.3s;
+}
+.albarose_toggle .switchSmall input:checked ~ small:before {
+  transform: translate(14px, 0px);
+  transition: 0.3s;
+}
+
+#activeusersbranch {
+  position: relative;
+  top: -2px;
 }
 
 @media (max-width: 1199px) {
@@ -453,7 +496,7 @@
   .open_order_row .open_order_grid {
     padding: 20px;
     border-radius: 6px;
-    box-shadow: 0px 3px 12px 0px #2F2B3D24;
+    box-shadow: 0px 3px 12px 0px #2f2b3d24;
   }
 }
 
