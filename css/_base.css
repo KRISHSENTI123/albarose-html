@@ -411,22 +411,14 @@ header .logo img {
 
 header.fixed {
   position: fixed;
-  height: 60px !important;
+  height: 55px !important;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 16;
+  z-index: 15;
   background-color: var(--white);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #d8d8d8;
   transition: all 0.4s ease-in-out;
-}
-
-@media (max-width: 575px) {
-  header.fixed {
-    height: 50px !important;
-    box-shadow: none;
-    border-bottom: 1px solid #d8d8d8;
-  }
 }
 
 .header-off-canvas .offcanvas-header {
@@ -473,3 +465,4 @@ header.fixed {
 .header-off-canvas .features-list {
   padding: 0px 10px 0px 10px;
 }
+

@@ -103,7 +103,7 @@ if (filter) {
   let placeholder = null;
 
   function fixedFilter() {
-    if (window.innerWidth <= 575) {
+    if (window.innerWidth <= 5075) {
       const currentScroll = window.scrollY;
       const scrollingUp = currentScroll < lastScroll;
 
@@ -115,20 +115,20 @@ if (filter) {
         }
 
         filter.style.position = "fixed";
-        filter.style.top = "50px";
+        filter.style.top = "53px";
         filter.style.left = "0";
         filter.style.right = "0";
         filter.style.zIndex = "15";
         filter.style.transition = "all 0.4s ease-in-out";
         filter.style.padding = "15px 20px";
         filter.style.background = "#fff";
-        filter.style.borderBottom = "1px solid #e5e5e5";
+        filter.style.borderTop = "1px solid #e5e5e5";
         filter.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.1)";
         isFilterFixed = true;
       } else if (currentScroll <= filterTop) {
         filter.style.position = "static";
         filter.style.padding = "0px";
-        filter.style.borderBottom = "none";
+        filter.style.borderTop = "none";
         filter.style.transition = "none";
         filter.style.top = "50px";
         filter.style.boxShadow = "none";
@@ -144,7 +144,7 @@ if (filter) {
           filter.style.transition = "none";
           filter.style.position = "static";
           filter.style.padding = "0px";
-          filter.style.borderBottom = "none";
+          filter.style.borderTop = "none";
           filter.style.top = "50px";
           filter.style.boxShadow = "none";
           isFilterFixed = false;
@@ -168,6 +168,28 @@ if (filter) {
         placeholder = null;
       }
     }
+  }
+
+  // Function to reset filter to static position
+  function resetFilterToStatic() {
+    filter.style.transition = "none";
+    filter.style.position = "static";
+    filter.style.padding = "0px";
+    filter.style.borderTop = "none";
+    filter.style.top = "50px";
+    filter.style.boxShadow = "none";
+    isFilterFixed = false;
+
+    if (placeholder) {
+      placeholder.remove();
+      placeholder = null;
+    }
+  }
+
+  // Add click event listener to partnerSidebar
+  const partnerSidebar = document.getElementById('partnerSidebar');
+  if (partnerSidebar) {
+    partnerSidebar.addEventListener('click', resetFilterToStatic);
   }
 
   window.addEventListener("scroll", fixedFilter);
