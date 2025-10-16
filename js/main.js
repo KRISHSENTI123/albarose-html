@@ -92,7 +92,6 @@ if (sliderone && prevBtnone && nextBtnone) {
   sliderone.addEventListener("scroll", updateButtons1);
   updateButtons1();
 }
-
 // Fixed Filter Logic
 const filter = document.getElementById('filterheader');
 
@@ -101,6 +100,11 @@ if (filter) {
   const filterTop = filter.offsetTop + 30;
   let isFilterFixed = false;
   let placeholder = null;
+
+  // Function to get appropriate padding based on screen width
+  function getFilterPadding() {
+    return window.innerWidth <= 992 ? "15px 20px" : "15px 60px";
+  }
 
   function fixedFilter() {
     if (window.innerWidth <= 5075) {
@@ -120,7 +124,7 @@ if (filter) {
         filter.style.right = "0";
         filter.style.zIndex = "15";
         filter.style.transition = "all 0.4s ease-in-out";
-        filter.style.padding = "15px 20px";
+        filter.style.padding = getFilterPadding();
         filter.style.background = "#fff";
         filter.style.borderTop = "1px solid #e5e5e5";
         filter.style.boxShadow = "0 2px 4px rgba(0, 0, 0, 0.1)";
