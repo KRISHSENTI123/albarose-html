@@ -7,7 +7,7 @@
   padding: 12px 10px;
 }
 
-.offers_sec h1 {
+.offers_sec h1, .offers_sec h2 {
   color: #4b4b4b;
   font-family: var(--font-cormorant);
   font-weight: 400;
